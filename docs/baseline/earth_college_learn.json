@@ -1,0 +1,44 @@
+{
+  "http_status": 200,
+  "seconds": 3.65,
+  "response": {
+    "explanation": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
+    "images": [
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FEarth%252C%2520Definition%2520of%2520Earth.%2520clean%2520definition%2520infographic%2520with%2520labeled%2520terms%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Db4e1ee76a355%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FEarth%252C%2520Core%2520Components%2520of%2520Earth.%2520technical%2520component%2520diagram%2520with%2520labeled%2520parts%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Dc210ec119dbb%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FEarth%252C%2520How%2520Earth%2520Works.%2520step-by-step%2520workflow%2520illustration%2520with%2520arrows%2520and%2520labels%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Dc2b4adaf3345%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FEarth%252C%2520Applications%2520of%2520Earth.%2520real-world%2520application%2520collage%2520in%2520classroom%2520textbook%2520style%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3D84cddfa38a03%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FEarth%252C%2520Common%2520Challenges%2520in%2520Earth.%2520comparison%2520chart%2520showing%2520mistakes%2520vs%2520correct%2520understanding%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Df0f23619138a%26width%3D640%26height%3D420"
+    ],
+    "level": "college",
+    "mode": "learn",
+    "subtopics": [
+      {
+        "brief": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water.",
+        "image_prompt": "Earth, Definition of Earth. clean definition infographic with labeled terms, high clarity, educational labels, no scenery, no animals.",
+        "title": "Definition of Earth"
+      },
+      {
+        "brief": "weather phenomena such as precipitation, allowing components such as carbon and nitrogen to cycle. Earth is rounded into an ellipsoid with a circumference",
+        "image_prompt": "Earth, Core Components of Earth. technical component diagram with labeled parts, high clarity, educational labels, no scenery, no animals.",
+        "title": "Core Components of Earth"
+      },
+      {
+        "brief": "Earth works through an operational flow where each stage contributes to the final behavior.",
+        "image_prompt": "Earth, How Earth Works. step-by-step workflow illustration with arrows and labels, high clarity, educational labels, no scenery, no animals.",
+        "title": "How Earth Works"
+      },
+      {
+        "brief": "Earth is applied in practical systems with measurable impact in real-world tasks.",
+        "image_prompt": "Earth, Applications of Earth. real-world application collage in classroom textbook style, high clarity, educational labels, no scenery, no animals.",
+        "title": "Applications of Earth"
+      },
+      {
+        "brief": "Common challenges in Earth include misconceptions, implementation pitfalls, and tuning issues.",
+        "image_prompt": "Earth, Common Challenges in Earth. comparison chart showing mistakes vs correct understanding, high clarity, educational labels, no scenery, no animals.",
+        "title": "Common Challenges in Earth"
+      }
+    ],
+    "topic": "Earth"
+  }
+}

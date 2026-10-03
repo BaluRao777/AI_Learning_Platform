@@ -1,0 +1,83 @@
+(node:659306) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:659306) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:659306) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+Failed to parse source map from '/home/saneesh/Documents/Rao's/text_to_image/text_to_image/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/home/saneesh/Documents/Rao's/text_to_image/text_to_image/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+[eslint] 
+src/components/CinematicIntro.js
+  Line 6:3:     'Float' is defined but never used                       no-unused-vars
+  Line 7:3:     'PerspectiveCamera' is defined but never used           no-unused-vars
+  Line 11:3:    'Bloom' is defined but never used                       no-unused-vars
+  Line 12:3:    'EffectComposer' is defined but never used              no-unused-vars
+  Line 61:9:    'coverRef' is assigned a value but never used           no-unused-vars
+  Line 62:9:    'leftPageRef' is assigned a value but never used        no-unused-vars
+  Line 63:9:    'rightPageRef' is assigned a value but never used       no-unused-vars
+  Line 135:72:  No duplicate props allowed                              react/jsx-no-duplicate-props
+  Line 154:9:   'explosionProgress' is assigned a value but never used  no-unused-vars
+
+src/pages/Landing.js
+  Line 5:26:  'HERO_WORDS' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in ./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs
+Module Warning (from ./node_modules/source-map-loader/dist/cjs.js):
+Failed to parse source map from '/home/saneesh/Documents/Rao's/text_to_image/text_to_image/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map' file: Error: ENOENT: no such file or directory, open '/home/saneesh/Documents/Rao's/text_to_image/text_to_image/frontend/node_modules/@mediapipe/tasks-vision/vision_bundle_mjs.js.map'
+
+WARNING in [eslint] 
+src/components/CinematicIntro.js
+  Line 6:3:     'Float' is defined but never used                       no-unused-vars
+  Line 7:3:     'PerspectiveCamera' is defined but never used           no-unused-vars
+  Line 11:3:    'Bloom' is defined but never used                       no-unused-vars
+  Line 12:3:    'EffectComposer' is defined but never used              no-unused-vars
+  Line 61:9:    'coverRef' is assigned a value but never used           no-unused-vars
+  Line 62:9:    'leftPageRef' is assigned a value but never used        no-unused-vars
+  Line 63:9:    'rightPageRef' is assigned a value but never used       no-unused-vars
+  Line 135:72:  No duplicate props allowed                              react/jsx-no-duplicate-props
+  Line 154:9:   'explosionProgress' is assigned a value but never used  no-unused-vars
+
+src/pages/Landing.js
+  Line 5:26:  'HERO_WORDS' is defined but never used  no-unused-vars
+
+webpack compiled with 2 warnings
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/CinematicIntro.js
+  Line 6:3:     'Float' is defined but never used                       no-unused-vars
+  Line 7:3:     'PerspectiveCamera' is defined but never used           no-unused-vars
+  Line 11:3:    'Bloom' is defined but never used                       no-unused-vars
+  Line 12:3:    'EffectComposer' is defined but never used              no-unused-vars
+  Line 61:9:    'coverRef' is assigned a value but never used           no-unused-vars
+  Line 62:9:    'leftPageRef' is assigned a value but never used        no-unused-vars
+  Line 63:9:    'rightPageRef' is assigned a value but never used       no-unused-vars
+  Line 135:72:  No duplicate props allowed                              react/jsx-no-duplicate-props
+  Line 154:9:   'explosionProgress' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/CinematicIntro.js
+  Line 6:3:     'Float' is defined but never used                       no-unused-vars
+  Line 7:3:     'PerspectiveCamera' is defined but never used           no-unused-vars
+  Line 11:3:    'Bloom' is defined but never used                       no-unused-vars
+  Line 12:3:    'EffectComposer' is defined but never used              no-unused-vars
+  Line 61:9:    'coverRef' is assigned a value but never used           no-unused-vars
+  Line 62:9:    'leftPageRef' is assigned a value but never used        no-unused-vars
+  Line 63:9:    'rightPageRef' is assigned a value but never used       no-unused-vars
+  Line 135:72:  No duplicate props allowed                              react/jsx-no-duplicate-props
+  Line 154:9:   'explosionProgress' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.

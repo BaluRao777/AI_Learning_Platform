@@ -1,0 +1,722 @@
+[
+  {
+    "id": 0,
+    "topic": "Photosynthesis",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "seed": 466629460
+  },
+  {
+    "id": 1,
+    "topic": "Photosynthesis",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "seed": 3411538538
+  },
+  {
+    "id": 2,
+    "topic": "Photosynthesis",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "seed": 3990597486
+  },
+  {
+    "id": 3,
+    "topic": "Photosynthesis",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a green plant leaf taking in sunlight, water and carbon dioxide and giving out oxygen and sugar, educational illustration, clean background, minimal text",
+    "seed": 958465996
+  },
+  {
+    "id": 4,
+    "topic": "Water cycle",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "seed": 3704636994
+  },
+  {
+    "id": 5,
+    "topic": "Water cycle",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "seed": 153603320
+  },
+  {
+    "id": 6,
+    "topic": "Water cycle",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "seed": 2192556264
+  },
+  {
+    "id": 7,
+    "topic": "Water cycle",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the water cycle with evaporation from the sea, cloud formation, rainfall over mountains and rivers returning to the sea, educational illustration, clean background, minimal text",
+    "seed": 953724927
+  },
+  {
+    "id": 8,
+    "topic": "Structure of the Earth",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "seed": 2996690361
+  },
+  {
+    "id": 9,
+    "topic": "Structure of the Earth",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "seed": 2368602567
+  },
+  {
+    "id": 10,
+    "topic": "Structure of the Earth",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "seed": 2588374560
+  },
+  {
+    "id": 11,
+    "topic": "Structure of the Earth",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a cutaway of the Earth showing the crust, mantle, outer core and inner core as concentric layers, educational illustration, clean background, minimal text",
+    "seed": 3076214303
+  },
+  {
+    "id": 12,
+    "topic": "Human heart",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "seed": 3192686579
+  },
+  {
+    "id": 13,
+    "topic": "Human heart",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "seed": 3036133391
+  },
+  {
+    "id": 14,
+    "topic": "Human heart",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "seed": 1455053138
+  },
+  {
+    "id": 15,
+    "topic": "Human heart",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the human heart with four chambers, major blood vessels and arrows showing the direction of blood flow, educational illustration, clean background, minimal text",
+    "seed": 4178459410
+  },
+  {
+    "id": 16,
+    "topic": "Plant cell",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "seed": 1936676221
+  },
+  {
+    "id": 17,
+    "topic": "Plant cell",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "seed": 4163341424
+  },
+  {
+    "id": 18,
+    "topic": "Plant cell",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "seed": 1527817843
+  },
+  {
+    "id": 19,
+    "topic": "Plant cell",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a plant cell with cell wall, nucleus, chloroplasts, large vacuole and mitochondria, educational illustration, clean background, minimal text",
+    "seed": 480159037
+  },
+  {
+    "id": 20,
+    "topic": "Solar system",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "seed": 3230446992
+  },
+  {
+    "id": 21,
+    "topic": "Solar system",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "seed": 2946889902
+  },
+  {
+    "id": 22,
+    "topic": "Solar system",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "seed": 3182748134
+  },
+  {
+    "id": 23,
+    "topic": "Solar system",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the Sun with the eight planets on their orbits in order of distance, educational illustration, clean background, minimal text",
+    "seed": 719918048
+  },
+  {
+    "id": 24,
+    "topic": "Volcano",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "seed": 2856737063
+  },
+  {
+    "id": 25,
+    "topic": "Volcano",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "seed": 602101364
+  },
+  {
+    "id": 26,
+    "topic": "Volcano",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "seed": 2332739295
+  },
+  {
+    "id": 27,
+    "topic": "Volcano",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a cross-section of an erupting volcano with magma chamber, vent, lava flow and ash cloud, educational illustration, clean background, minimal text",
+    "seed": 856050613
+  },
+  {
+    "id": 28,
+    "topic": "Human digestive system",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "seed": 2311142803
+  },
+  {
+    "id": 29,
+    "topic": "Human digestive system",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "seed": 4104251583
+  },
+  {
+    "id": 30,
+    "topic": "Human digestive system",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "seed": 4230904573
+  },
+  {
+    "id": 31,
+    "topic": "Human digestive system",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the human digestive system from mouth through oesophagus, stomach and intestines, educational illustration, clean background, minimal text",
+    "seed": 982418393
+  },
+  {
+    "id": 32,
+    "topic": "Food chain",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "seed": 3081790413
+  },
+  {
+    "id": 33,
+    "topic": "Food chain",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "seed": 1098866471
+  },
+  {
+    "id": 34,
+    "topic": "Food chain",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "seed": 3538866745
+  },
+  {
+    "id": 35,
+    "topic": "Food chain",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a food chain from grass to grasshopper to frog to snake to eagle connected by arrows, educational illustration, clean background, minimal text",
+    "seed": 3371675605
+  },
+  {
+    "id": 36,
+    "topic": "Electric circuit",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "seed": 76153769
+  },
+  {
+    "id": 37,
+    "topic": "Electric circuit",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "seed": 2292325998
+  },
+  {
+    "id": 38,
+    "topic": "Electric circuit",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "seed": 4194067418
+  },
+  {
+    "id": 39,
+    "topic": "Electric circuit",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a simple electric circuit with a battery, a switch, connecting wires and a glowing bulb, educational illustration, clean background, minimal text",
+    "seed": 1179909865
+  },
+  {
+    "id": 40,
+    "topic": "Refraction of light",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "seed": 602119335
+  },
+  {
+    "id": 41,
+    "topic": "Refraction of light",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "seed": 1449140342
+  },
+  {
+    "id": 42,
+    "topic": "Refraction of light",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "seed": 1590891040
+  },
+  {
+    "id": 43,
+    "topic": "Refraction of light",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a ray of light bending as it passes from air into a glass block and out again, educational illustration, clean background, minimal text",
+    "seed": 4282097253
+  },
+  {
+    "id": 44,
+    "topic": "Atom structure",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "seed": 2745250114
+  },
+  {
+    "id": 45,
+    "topic": "Atom structure",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "seed": 679130926
+  },
+  {
+    "id": 46,
+    "topic": "Atom structure",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "seed": 2272064233
+  },
+  {
+    "id": 47,
+    "topic": "Atom structure",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, an atom with protons and neutrons in the nucleus and electrons on shells around it, educational illustration, clean background, minimal text",
+    "seed": 2520184965
+  },
+  {
+    "id": 48,
+    "topic": "DNA double helix",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "seed": 607246479
+  },
+  {
+    "id": 49,
+    "topic": "DNA double helix",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "seed": 2122141963
+  },
+  {
+    "id": 50,
+    "topic": "DNA double helix",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "seed": 2888576901
+  },
+  {
+    "id": 51,
+    "topic": "DNA double helix",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a DNA double helix with two twisted strands joined by paired bases, educational illustration, clean background, minimal text",
+    "seed": 3296373982
+  },
+  {
+    "id": 52,
+    "topic": "Rock cycle",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "seed": 2118058226
+  },
+  {
+    "id": 53,
+    "topic": "Rock cycle",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "seed": 2054238479
+  },
+  {
+    "id": 54,
+    "topic": "Rock cycle",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "seed": 956982455
+  },
+  {
+    "id": 55,
+    "topic": "Rock cycle",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the rock cycle linking igneous, sedimentary and metamorphic rocks with arrows for melting, erosion and pressure, educational illustration, clean background, minimal text",
+    "seed": 1317028299
+  },
+  {
+    "id": 56,
+    "topic": "Neuron",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "seed": 2612418445
+  },
+  {
+    "id": 57,
+    "topic": "Neuron",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "seed": 558764974
+  },
+  {
+    "id": 58,
+    "topic": "Neuron",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "seed": 4058222016
+  },
+  {
+    "id": 59,
+    "topic": "Neuron",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, a nerve cell with dendrites, cell body, long axon with myelin sheath and axon terminals, educational illustration, clean background, minimal text",
+    "seed": 3769499206
+  },
+  {
+    "id": 60,
+    "topic": "Human respiratory system",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "seed": 1503145823
+  },
+  {
+    "id": 61,
+    "topic": "Human respiratory system",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "seed": 3661135998
+  },
+  {
+    "id": 62,
+    "topic": "Human respiratory system",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "seed": 1199206008
+  },
+  {
+    "id": 63,
+    "topic": "Human respiratory system",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the human respiratory system with nose, trachea, bronchi, two lungs and diaphragm, educational illustration, clean background, minimal text",
+    "seed": 2577457490
+  },
+  {
+    "id": 64,
+    "topic": "Phases of the Moon",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "seed": 2500676708
+  },
+  {
+    "id": 65,
+    "topic": "Phases of the Moon",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "seed": 1959277381
+  },
+  {
+    "id": 66,
+    "topic": "Phases of the Moon",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "seed": 3299995433
+  },
+  {
+    "id": 67,
+    "topic": "Phases of the Moon",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the Moon at eight positions around the Earth showing its phases as lit by the Sun, educational illustration, clean background, minimal text",
+    "seed": 2425298728
+  },
+  {
+    "id": 68,
+    "topic": "Plate tectonics",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "seed": 4149625765
+  },
+  {
+    "id": 69,
+    "topic": "Plate tectonics",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "seed": 1230708040
+  },
+  {
+    "id": 70,
+    "topic": "Plate tectonics",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "seed": 4102662992
+  },
+  {
+    "id": 71,
+    "topic": "Plate tectonics",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, two tectonic plates colliding, one sliding under the other, forming mountains and a deep ocean trench, educational illustration, clean background, minimal text",
+    "seed": 1783634235
+  },
+  {
+    "id": 72,
+    "topic": "Life cycle of a butterfly",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "seed": 391953544
+  },
+  {
+    "id": 73,
+    "topic": "Life cycle of a butterfly",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "seed": 2520830205
+  },
+  {
+    "id": 74,
+    "topic": "Life cycle of a butterfly",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "seed": 2991495693
+  },
+  {
+    "id": 75,
+    "topic": "Life cycle of a butterfly",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, the life cycle of a butterfly from egg to caterpillar to chrysalis to adult butterfly arranged in a circle, educational illustration, clean background, minimal text",
+    "seed": 1601485626
+  },
+  {
+    "id": 76,
+    "topic": "Greenhouse effect",
+    "level": "school",
+    "mode": "learn",
+    "prompt": "school level, learn style colourful infographic, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, learn style colourful infographic, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "seed": 3460141538
+  },
+  {
+    "id": 77,
+    "topic": "Greenhouse effect",
+    "level": "school",
+    "mode": "exam",
+    "prompt": "school level, exam style clean labeled textbook diagram, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, school level, exam style clean labeled textbook diagram, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "seed": 2622003540
+  },
+  {
+    "id": 78,
+    "topic": "Greenhouse effect",
+    "level": "college",
+    "mode": "learn",
+    "prompt": "college level, process flow diagram, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, process flow diagram, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "seed": 1602494349
+  },
+  {
+    "id": 79,
+    "topic": "Greenhouse effect",
+    "level": "college",
+    "mode": "exam",
+    "prompt": "college level, exam style clean labeled textbook diagram, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "lora_prompt": "edudiag, college level, exam style clean labeled textbook diagram, sunlight entering the Earth's atmosphere and heat being trapped by a layer of greenhouse gases, educational illustration, clean background, minimal text",
+    "seed": 3538542833
+  }
+]

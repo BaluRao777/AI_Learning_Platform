@@ -1,0 +1,110 @@
+# ----------------------------------------------------------------------
+# Backend (Python / Flask)
+# ----------------------------------------------------------------------
+backend/database/*.db
+backend/.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ----------------------------------------------------------------------
+# Frontend (Node / React)
+# ----------------------------------------------------------------------
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+
+# Misc Frontend
+frontend/.pnp
+frontend/.pnp.js
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Env files (keep .env.example)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ----------------------------------------------------------------------
+# OS / Editor Files
+# ----------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ----------------------------------------------------------------------
+# Local AI upgrade (never commit / copy between machines)
+# ----------------------------------------------------------------------
+backend/generated_images/
+backend/models_store/
+backups/
+training/data/
+training/output/
+training/third_party/
+training/eval/outputs/
+backend/.env.backup*
+
+# Bundled model folders (portable zip)
+/models/
+.venv/
+setup_report.txt
+RUN_COMMANDS.txt
+
+# ----------------------------------------------------------------------
+# Safety rules for the public repository
+# ----------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.db
+*.zip
+diffusers/
+node_modules/
+generated_images/
+setup_result.json
+smoke.png

@@ -1,0 +1,89 @@
+{
+  "total_images": 4225,
+  "per_source": {
+    "wikimedia_commons": 2785,
+    "ai2d": 1440
+  },
+  "per_license": {
+    "CC BY-SA": 1440,
+    "CC BY-SA 4.0": 1067,
+    "CC BY-SA 3.0": 664,
+    "Public domain": 530,
+    "CC0": 207,
+    "CC BY 4.0": 149,
+    "CC BY 3.0": 98,
+    "CC BY 2.5": 25,
+    "CC BY-SA 2.5": 22,
+    "CC BY 2.0": 8,
+    "CC BY-SA 2.0 uk": 3,
+    "CC BY-SA 2.0 de": 2,
+    "CC BY-SA 3.0 igo": 2,
+    "CC BY-SA 3.0 de": 2,
+    "CC BY-SA 2.0": 1,
+    "CC BY-SA 1.0": 1,
+    "CC BY-SA 3.0 nl": 1,
+    "CC BY 1.0": 1,
+    "CC BY-SA 3.0 cz": 1,
+    "CC BY 2.0 kr": 1
+  },
+  "per_complexity": {
+    "simple": 2728,
+    "detailed": 1497
+  },
+  "per_look": {
+    "textbook_diagram": 3105,
+    "infographic": 827,
+    "process_flow": 285,
+    "cross_section": 8
+  },
+  "per_complexity_and_look": {
+    "simple / textbook_diagram": 1995,
+    "detailed / textbook_diagram": 1110,
+    "simple / infographic": 539,
+    "detailed / infographic": 288,
+    "simple / process_flow": 189,
+    "detailed / process_flow": 96,
+    "simple / cross_section": 5,
+    "detailed / cross_section": 3
+  },
+  "per_split": {
+    "train": 3803,
+    "val": 211,
+    "test": 211
+  },
+  "filter_report": {
+    "ai2d": {
+      "raw": 4903,
+      "kept": 1440,
+      "dropped_small": 3447,
+      "dropped_duplicate": 16
+    },
+    "wikimedia": {
+      "raw": 3300,
+      "kept": 2820,
+      "dropped_duplicate": 476,
+      "dropped_aspect": 4
+    },
+    "total_kept": 4260,
+    "settings": {
+      "min_side": 512,
+      "max_aspect": 3.0,
+      "phash_distance": 4
+    }
+  },
+  "build_report": {
+    "kept": 4225,
+    "dropped": {
+      "no_caption": 0,
+      "caption_failed": 18,
+      "not_educational_diagram": 8,
+      "photo_of_people": 9
+    },
+    "splits": {
+      "val": 211,
+      "test": 211,
+      "train": 3803
+    }
+  },
+  "caption_words_mean": 25.9
+}

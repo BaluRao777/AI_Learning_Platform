@@ -1,0 +1,262 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.24.233:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+CONFIG analyzer=on qwen=Qwen/Qwen2.5-1.5B-Instruct qwen_4bit=True qwen_unload_after_use=True image_backend=mixed image_mix=base:2,lora:2,pollinations:1 mix_lora=models_store/lora/pytorch_lora_weights.safetensors lora=none fused_transformer=none text_encoder_4bit=True offload=model size=512x512 steps=20 num_images=5 pollinations_fallback=False gemini_model=gemini-3.5-flash-lite gemini_key_set=yes
+ * Debugger is active!
+ * Debugger PIN: xxx-xxx-xxx
+127.0.0.1 - - [03/Oct/2026 18:48:19] "POST /login HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|          | 3/338 [00:00<00:15, 21.90it/s]Loading weights:  19%|█▉        | 65/338 [00:00<00:00, 322.82it/s]Loading weights:  41%|████      | 137/338 [00:00<00:00, 481.37it/s]Loading weights:  65%|██████▍   | 219/338 [00:00<00:00, 603.17it/s]Loading weights:  87%|████████▋ | 293/338 [00:00<00:00, 649.63it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 567.26it/s]
+MODEL MANAGER: loaded qwen_analyzer in 5.5s
+MODEL MANAGER: unloaded qwen_analyzer
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+GENERATE topic='Photosynthesis' level=college mode=exam analyzer=qwen analysis_ms=14110 content_ms=4338 image_backend=mixed total_ms=18462
+127.0.0.1 - - [03/Oct/2026 18:48:37] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:37] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:37] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:37] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:37] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:39] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:39] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:39] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:39] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<00:47,  6.01it/s]Loading weights:  16%|█▌        | 46/288 [00:00<00:01, 211.08it/s]Loading weights:  32%|███▏      | 91/288 [00:00<00:00, 301.09it/s]Loading weights:  45%|████▌     | 131/288 [00:00<00:00, 335.95it/s]Loading weights:  62%|██████▏   | 179/288 [00:00<00:00, 378.50it/s]Loading weights:  78%|███████▊  | 225/288 [00:00<00:00, 403.66it/s]Loading weights:  97%|█████████▋| 278/288 [00:00<00:00, 438.23it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 360.55it/s]
+/home/saneesh/miniconda3/envs/sana_train/lib/python3.11/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:48:42] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:42] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  1.62it/s]127.0.0.1 - - [03/Oct/2026 18:48:43] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:43] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  1.91it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  1.83it/s]
+127.0.0.1 - - [03/Oct/2026 18:48:45] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:45] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:45] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:45] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+MODEL MANAGER: loaded sana_pipeline in 8.1s
+127.0.0.1 - - [03/Oct/2026 18:48:47] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:47] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:47] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:47] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:49] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:49] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:49] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:49] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+IMAGE JOB done id=046756ca68a544c5bd7293ae3a4a8e4f backend=local total_s=12.58 info={'seconds': 4.49, 'peak_vram_mb': 3155.5, 'offload': 'model', 'lora': 'none', 'load_s': 8.055}
+127.0.0.1 - - [03/Oct/2026 18:48:51] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:51] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:51] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:51] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:53] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:53] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:53] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:53] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:55] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:55] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:55] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:55] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+IMAGE JOB done id=b82fc5ebd8fd4552af790a41f7230311 backend=local total_s=5.61 info={'seconds': 5.59, 'peak_vram_mb': 3155.5, 'offload': 'model', 'lora': 'none', 'load_s': 8.055}
+127.0.0.1 - - [03/Oct/2026 18:48:57] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:57] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:57] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:57] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+IMAGE JOB done id=7dd37059cd8547edafc7707b33044836 backend=local total_s=3.44 info={'seconds': 3.23, 'peak_vram_mb': 3188.4, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 8.055}
+127.0.0.1 - - [03/Oct/2026 18:48:59] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:59] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:59] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:48:59] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:01] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:01] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:01] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:01] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+IMAGE JOB done id=9462de44adaa4d038a11c62ce55a8e11 backend=local total_s=2.91 info={'seconds': 2.86, 'peak_vram_mb': 3188.4, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 8.055}
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/b82fc5ebd8fd4552af790a41f7230311/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/7dd37059cd8547edafc7707b33044836/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/9462de44adaa4d038a11c62ce55a8e11/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/046756ca68a544c5bd7293ae3a4a8e4f.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/b82fc5ebd8fd4552af790a41f7230311.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/7dd37059cd8547edafc7707b33044836.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:03] "GET /generated/9462de44adaa4d038a11c62ce55a8e11.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:07] "GET /image-proxy?url=https://image.pollinations.ai/prompt/textbook%2520diagram%2520comparing%2520two%2520metabolic%2520pathways%2520side%2520by%2520side%252C%2520showing%2520chloroplast%2520electron%2520transport%2520chains%2520pumping%2520protons%2520in%2520reverse%2520orientation%2520compared%2520to%2520mitochondrial%2520crist.%2520textbook%2520diagram%2520style%252C%2520educational%252C%2520labeled%2520elements%252C%2520clean%2520white%2520background%252C%2520no%2520artistic%2520scenery.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.?seed%3D0b6270e24027%26width%3D640%26height%3D420 HTTP/1.1" 200 -
+MODEL MANAGER: unloaded sana_pipeline
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   5%|▍         | 16/338 [00:00<00:02, 157.06it/s]Loading weights:  23%|██▎       | 77/338 [00:00<00:00, 413.57it/s]Loading weights:  44%|████▍     | 148/338 [00:00<00:00, 540.83it/s]Loading weights:  65%|██████▍   | 219/338 [00:00<00:00, 602.22it/s]Loading weights:  86%|████████▋ | 292/338 [00:00<00:00, 639.66it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 593.98it/s]
+MODEL MANAGER: loaded qwen_analyzer in 1.2s
+MODEL MANAGER: unloaded qwen_analyzer
+GENERATE topic='Photosynthesis' level=school mode=learn analyzer=qwen analysis_ms=7038 content_ms=3758 image_backend=mixed total_ms=10808
+127.0.0.1 - - [03/Oct/2026 18:49:17] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:17] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:17] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:17] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:17] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<01:04,  4.48it/s]Loading weights:   9%|▉         | 27/288 [00:00<00:02, 103.92it/s]Loading weights:  21%|██        | 60/288 [00:00<00:01, 183.28it/s]Loading weights:  32%|███▏      | 93/288 [00:00<00:00, 227.92it/s]Loading weights:  44%|████▍     | 126/288 [00:00<00:00, 257.88it/s]Loading weights:  58%|█████▊    | 168/288 [00:00<00:00, 303.98it/s]Loading weights:  72%|███████▏  | 208/288 [00:00<00:00, 331.80it/s]Loading weights:  86%|████████▌ | 247/288 [00:00<00:00, 348.12it/s]Loading weights: 100%|██████████| 288/288 [00:01<00:00, 278.75it/s]
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:49:21] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:21] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:21] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  1.82it/s]127.0.0.1 - - [03/Oct/2026 18:49:21] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.24it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.13it/s]
+MODEL MANAGER: loaded sana_pipeline in 4.9s
+127.0.0.1 - - [03/Oct/2026 18:49:23] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:23] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:23] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:23] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:25] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:25] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:25] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:25] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+IMAGE JOB done id=a8e7767b85424d90990854da751e2873 backend=local total_s=8.65 info={'seconds': 3.67, 'peak_vram_mb': 3163.5, 'offload': 'model', 'lora': 'none', 'load_s': 4.931}
+127.0.0.1 - - [03/Oct/2026 18:49:27] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:27] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:27] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:27] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+IMAGE JOB done id=72d84bb0f29849ebb26cf0815b6ee542 backend=local total_s=2.79 info={'seconds': 2.75, 'peak_vram_mb': 3164.3, 'offload': 'model', 'lora': 'none', 'load_s': 4.931}
+127.0.0.1 - - [03/Oct/2026 18:49:29] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:29] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:29] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:29] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:31] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:31] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:31] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:31] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+IMAGE JOB done id=d7200b3fe6294cbf933b852b8c643902 backend=local total_s=3.25 info={'seconds': 3.0, 'peak_vram_mb': 3196.3, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 4.931}
+127.0.0.1 - - [03/Oct/2026 18:49:33] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:33] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:33] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:33] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:35] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:35] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:35] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:35] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+IMAGE JOB done id=b1bd6fb2e4894e1ea241a5490f051ca7 backend=local total_s=4.56 info={'seconds': 4.52, 'peak_vram_mb': 3196.8, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 4.931}
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/a8e7767b85424d90990854da751e2873/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/d7200b3fe6294cbf933b852b8c643902/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/a8e7767b85424d90990854da751e2873.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/72d84bb0f29849ebb26cf0815b6ee542.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/d7200b3fe6294cbf933b852b8c643902.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:37] "GET /generated/b1bd6fb2e4894e1ea241a5490f051ca7.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:49:47] "GET /image-proxy?url=https://image.pollinations.ai/prompt/textbook%2520diagram%2520of%2520a%2520leaf%2520releasing%2520red%2520bubbles%2520and%2520glowing%2520sweet%2520sugar%2520crystals%2520as%2520oxygen%2520and%2520glucose%2520as%2520products%252C%2520with%2520a%2520simple%2520plant%2520leaf%2520with%2520light%2520source%252C%2520chloroplasts%252C%2520and%2520c.%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.?seed%3Dd6a57bc7cee2%26width%3D640%26height%3D420 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:50:02] "GET /image-proxy?url=https://image.pollinations.ai/prompt/textbook%2520diagram%2520of%2520a%2520leaf%2520releasing%2520red%2520bubbles%2520and%2520glowing%2520sweet%2520sugar%2520crystals%2520as%2520oxygen%2520and%2520glucose%2520as%2520products%252C%2520with%2520a%2520simple%2520plant%2520leaf%2520with%2520light%2520source%252C%2520chloroplasts%252C%2520and%2520c.%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.?seed%3Dd6a57bc7cee2%26width%3D640%26height%3D420 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:50:02] "GET /image-proxy?url=https://image.pollinations.ai/prompt/textbook%2520diagram%2520of%2520a%2520leaf%2520releasing%2520red%2520bubbles%2520and%2520glowing%2520sweet%2520sugar%2520crystals%2520as%2520oxygen%2520and%2520glucose%2520as%2520products%252C%2520with%2520a%2520simple%2520plant%2520leaf%2520with%2520light%2520source%252C%2520chloroplasts%252C%2520and%2520c.%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.?seed%3Dd6a57bc7cee2%26width%3D640%26height%3D420 HTTP/1.1" 200 -
+ * Detected change in "/home/saneesh/Documents/Rao's/text_to_image/text_to_image/backend/config.py", reloading
+ * Restarting with stat
+CONFIG analyzer=on qwen=Qwen/Qwen2.5-1.5B-Instruct qwen_4bit=True qwen_unload_after_use=True image_backend=mixed image_mix=base:2,lora:2,pollinations:1 mix_lora=models_store/lora/pytorch_lora_weights.safetensors lora=none fused_transformer=none text_encoder_4bit=True offload=model size=512x512 steps=20 num_images=5 pollinations_fallback=False gemini_model=gemini-3.5-flash-lite gemini_key_set=yes
+ * Debugger is active!
+ * Debugger PIN: xxx-xxx-xxx
+ * Detected change in "/home/saneesh/Documents/Rao's/text_to_image/text_to_image/backend/tests/test_generated_routes.py", reloading
+ * Restarting with stat
+CONFIG analyzer=on qwen=Qwen/Qwen2.5-1.5B-Instruct qwen_4bit=True qwen_unload_after_use=True image_backend=mixed image_mix=base:2,lora:2,pollinations:1 mix_lora=models_store/lora/pytorch_lora_weights.safetensors lora=none fused_transformer=none text_encoder_4bit=True offload=model size=512x512 steps=20 num_images=5 pollinations_fallback=False gemini_model=gemini-3.5-flash-lite gemini_key_set=yes
+ * Debugger is active!
+ * Debugger PIN: xxx-xxx-xxx
+127.0.0.1 - - [03/Oct/2026 18:57:38] "POST /login HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|          | 3/338 [00:00<00:15, 21.34it/s]Loading weights:  19%|█▉        | 64/338 [00:00<00:00, 315.18it/s]Loading weights:  32%|███▏      | 109/338 [00:00<00:00, 369.42it/s]Loading weights:  44%|████▍     | 149/338 [00:00<00:00, 360.36it/s]Loading weights:  57%|█████▋    | 191/338 [00:00<00:00, 378.40it/s]Loading weights:  69%|██████▊   | 232/338 [00:00<00:00, 382.05it/s]Loading weights:  83%|████████▎ | 279/338 [00:00<00:00, 401.75it/s]Loading weights:  97%|█████████▋| 327/338 [00:00<00:00, 419.50it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 376.84it/s]
+MODEL MANAGER: loaded qwen_analyzer in 5.8s
+MODEL MANAGER: unloaded qwen_analyzer
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+GENERATE topic='Water cycle' level=school mode=exam analyzer=qwen analysis_ms=16486 content_ms=3048 image_backend=mixed total_ms=19547
+127.0.0.1 - - [03/Oct/2026 18:57:58] "POST /generate HTTP/1.1" 200 -
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<00:45,  6.29it/s]Loading weights:  16%|█▋        | 47/288 [00:00<00:01, 221.00it/s]Loading weights:  32%|███▏      | 92/288 [00:00<00:00, 310.98it/s]Loading weights:  47%|████▋     | 136/288 [00:00<00:00, 351.52it/s]Loading weights:  63%|██████▎   | 181/288 [00:00<00:00, 379.60it/s]Loading weights:  81%|████████▏ | 234/288 [00:00<00:00, 422.29it/s]Loading weights:  97%|█████████▋| 279/288 [00:00<00:00, 424.20it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 363.89it/s]
+/home/saneesh/miniconda3/envs/sana_train/lib/python3.11/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:58:01] "GET /image-proxy?url=https://image.pollinations.ai/prompt/textbook%2520diagram%2520of%2520a%2520blue%2520globe%2520showing%2520large%2520curved%2520blue%2520arrows%2520moving%2520across%2520the%2520ocean%2520surface%2520between%2520continents.%2520textbook%2520diagram%2520style%252C%2520educational%252C%2520labeled%2520elements%252C%2520clean%2520white%2520background%252C%2520no%2520artistic%2520scenery.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.?seed%3Daccddd341db4%26width%3D640%26height%3D420 HTTP/1.1" 200 -
+Loading pipeline components...:  60%|██████    | 3/5 [00:02<00:01,  1.37it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.33it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.07it/s]
+MODEL MANAGER: loaded sana_pipeline in 6.3s
+IMAGE JOB done id=723b7cefd91142eaa5e094047b20702b backend=local total_s=10.47 info={'seconds': 4.08, 'peak_vram_mb': 3155.5, 'offload': 'model', 'lora': 'none', 'load_s': 6.345}
+IMAGE JOB done id=b286f2bea346480593dd9efda06b55db backend=local total_s=3.5 info={'seconds': 3.45, 'peak_vram_mb': 3155.5, 'offload': 'model', 'lora': 'none', 'load_s': 6.345}
+IMAGE JOB done id=523d3a8d7426481d9ed866368d270b67 backend=local total_s=5.31 info={'seconds': 5.07, 'peak_vram_mb': 3188.4, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 6.345}
+IMAGE JOB done id=43b90a8608e740c48290daa9c2d522ff backend=local total_s=3.71 info={'seconds': 3.68, 'peak_vram_mb': 3188.4, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 6.345}
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/e8531fc5839a4a1f9725d5fc5c5057ac.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/349ee2502aa04f8fa73d23685beb54ff.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/13d2f0419f8f43749d0f3722d2a7a7f3.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/6e8cc23d477b46e88f2a465f4fe57ba7.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/a6546a980e33413787b6c3c471923d30.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/e8531fc5839a4a1f9725d5fc5c5057ac/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/349ee2502aa04f8fa73d23685beb54ff/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/6e8cc23d477b46e88f2a465f4fe57ba7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/13d2f0419f8f43749d0f3722d2a7a7f3/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/a6546a980e33413787b6c3c471923d30/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/e8531fc5839a4a1f9725d5fc5c5057ac/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/349ee2502aa04f8fa73d23685beb54ff/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/6e8cc23d477b46e88f2a465f4fe57ba7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/13d2f0419f8f43749d0f3722d2a7a7f3/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:40] "GET /generated/a6546a980e33413787b6c3c471923d30/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:41] "GET /generated/349ee2502aa04f8fa73d23685beb54ff.png?v=1791034361196 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:41] "GET /generated/e8531fc5839a4a1f9725d5fc5c5057ac.png?v=1791034361195 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:41] "GET /generated/6e8cc23d477b46e88f2a465f4fe57ba7.png?v=1791034361196 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:41] "GET /generated/13d2f0419f8f43749d0f3722d2a7a7f3.png?v=1791034361196 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:02:41] "GET /generated/a6546a980e33413787b6c3c471923d30.png?v=1791034361196 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:38] "OPTIONS /generate HTTP/1.1" 200 -
+MODEL MANAGER: unloaded sana_pipeline
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/338 [00:00<00:06, 48.27it/s]Loading weights:  19%|█▊        | 63/338 [00:00<00:00, 352.39it/s]Loading weights:  37%|███▋      | 124/338 [00:00<00:00, 463.11it/s]Loading weights:  56%|█████▌    | 188/338 [00:00<00:00, 531.68it/s]Loading weights:  76%|███████▌  | 256/338 [00:00<00:00, 576.12it/s]Loading weights:  93%|█████████▎| 314/338 [00:00<00:00, 543.33it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 484.81it/s]
+MODEL MANAGER: loaded qwen_analyzer in 1.4s
+MODEL MANAGER: unloaded qwen_analyzer
+GENERATE topic='human skleton' level=college mode=learn analyzer=qwen analysis_ms=13815 content_ms=4712 image_backend=mixed total_ms=18540
+127.0.0.1 - - [03/Oct/2026 19:03:56] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/f924335a053148ac9026002fe66b439b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/f924335a053148ac9026002fe66b439b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/9d2f4411a2254ed894f5131344e8620d.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/f924335a053148ac9026002fe66b439b.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/683033c3dcff489b963b80dc49418daa.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:03:56] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7.png HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<00:52,  5.50it/s]Loading weights:  12%|█▎        | 36/288 [00:00<00:01, 153.28it/s]Loading weights:  25%|██▍       | 71/288 [00:00<00:00, 225.16it/s]Loading weights:  36%|███▌      | 104/288 [00:00<00:00, 261.59it/s]Loading weights:  48%|████▊     | 137/288 [00:00<00:00, 283.11it/s]Loading weights:  62%|██████▏   | 178/288 [00:00<00:00, 323.85it/s]Loading weights:  74%|███████▍  | 213/288 [00:00<00:00, 326.23it/s]Loading weights:  89%|████████▉ | 257/288 [00:00<00:00, 355.96it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 297.50it/s]
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  60%|██████    | 3/5 [00:02<00:01,  1.35it/s]127.0.0.1 - - [03/Oct/2026 19:04:00] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:00] "GET /generated/f924335a053148ac9026002fe66b439b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:00] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:00] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:00] "GET /image-proxy?url=https://image.pollinations.ai/prompt/cross-section%2520of%2520the%2520thoracic%2520cage%252C%2520detailed%2520view%2520showing%2520curved%2520rib%2520bones%2520and%2520sternum%2520forming%2520a%2520protective%2520bony%2520perimeter%2520around%2520centralized%2520visceral%2520cavity%2520spaces%252C%2520with%2520radial%2520pr.%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.?seed%3D6994a5d92313%26width%3D640%26height%3D420 HTTP/1.1" 200 -
+Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.15it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  1.94it/s]
+MODEL MANAGER: loaded sana_pipeline in 5.2s
+127.0.0.1 - - [03/Oct/2026 19:04:03] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:03] "GET /generated/f924335a053148ac9026002fe66b439b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:03] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:03] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:06] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:06] "GET /generated/f924335a053148ac9026002fe66b439b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:06] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:06] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+IMAGE JOB done id=f924335a053148ac9026002fe66b439b backend=local total_s=11.16 info={'seconds': 5.7, 'peak_vram_mb': 3163.5, 'offload': 'model', 'lora': 'none', 'load_s': 5.238}
+127.0.0.1 - - [03/Oct/2026 19:04:09] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:09] "GET /generated/f924335a053148ac9026002fe66b439b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:09] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:09] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:09] "GET /generated/f924335a053148ac9026002fe66b439b.png?v=1791034449199 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:12] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:12] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:12] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+IMAGE JOB done id=9d2f4411a2254ed894f5131344e8620d backend=local total_s=6.61 info={'seconds': 6.39, 'peak_vram_mb': 3164.3, 'offload': 'model', 'lora': 'none', 'load_s': 5.238}
+127.0.0.1 - - [03/Oct/2026 19:04:15] "GET /generated/9d2f4411a2254ed894f5131344e8620d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:15] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:15] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:15] "GET /generated/9d2f4411a2254ed894f5131344e8620d.png?v=1791034455256 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:18] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:18] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+IMAGE JOB done id=683033c3dcff489b963b80dc49418daa backend=local total_s=6.57 info={'seconds': 5.66, 'peak_vram_mb': 3196.3, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 5.238}
+127.0.0.1 - - [03/Oct/2026 19:04:21] "GET /generated/683033c3dcff489b963b80dc49418daa/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:21] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:21] "GET /generated/683033c3dcff489b963b80dc49418daa.png?v=1791034461350 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:24] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:27] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+IMAGE JOB done id=5d8255343ba941d0a66f16b5a8cd7aa7 backend=local total_s=6.7 info={'seconds': 6.62, 'peak_vram_mb': 3196.8, 'offload': 'model', 'lora': 'pytorch_lora_weights.safetensors', 'load_s': 5.238}
+127.0.0.1 - - [03/Oct/2026 19:04:30] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 19:04:30] "GET /generated/5d8255343ba941d0a66f16b5a8cd7aa7.png?v=1791034470420 HTTP/1.1" 200 -
+ * Detected change in "/home/saneesh/Documents/Rao's/text_to_image/text_to_image/backend/config.py", reloading

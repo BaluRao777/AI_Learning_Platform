@@ -1,0 +1,70 @@
+text_to_image/
+|-- .gitignore
+|-- README.md
+|-- backend
+|   |-- .env
+|   |-- .env.example
+|   |-- app.py
+|   |-- config.py
+|   |-- database
+|   |   |-- app.db
+|   |   |-- db.py
+|   |   -- schema.sql
+|   |-- init_db.py
+|   |-- middleware
+|   |   -- auth_middleware.py
+|   |-- migrate_db.py
+|   |-- models
+|   |   |-- history_model.py
+|   |   -- user_model.py
+|   |-- requirements.txt
+|   |-- routes
+|   |   |-- auth_routes.py
+|   |   |-- generate_routes.py
+|   |   -- history_routes.py
+|   |-- services
+|   |   |-- ai_service.py
+|   |   -- image_service.py
+|   -- utils
+|       |-- hash_helper.py
+|       |-- jwt_helper.py
+|       -- prompt_builder.py
+|-- document.md
+|-- folder_structure.txt
+|-- frontend
+|   |-- .env.example
+|   |-- package-lock.json
+|   |-- package.json
+|   |-- public
+|   |   |-- favicon.ico
+|   |   |-- index.html
+|   |   |-- landing.mp4
+|   |   |-- logo192.png
+|   |   |-- logo512.png
+|   |   |-- manifest.json
+|   |   -- robots.txt
+|   -- src
+|       |-- App.js
+|       |-- components
+|       |   |-- ErrorBoundary.js
+|       |   |-- ImageCard.js
+|       |   |-- InputForm.js
+|       |   |-- Loader.js
+|       |   |-- Navbar.js
+|       |   |-- ProtectedRoute.js
+|       |   -- TubesCursor.js
+|       |-- index.css
+|       |-- index.js
+|       |-- pages
+|       |   |-- History.js
+|       |   |-- HistoryList.js
+|       |   |-- Home.js
+|       |   |-- Landing.js
+|       |   |-- Login.js
+|       |   |-- Result.js
+|       |   -- Signup.js
+|       |-- reportWebVitals.js
+|       -- services
+|           -- api.js
+|-- requirements.txt
+-- setup_backend.bat

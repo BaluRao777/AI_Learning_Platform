@@ -1,0 +1,91 @@
+{
+  "analysis": {
+    "analysis_ms": 16486,
+    "fields_from_rules": [],
+    "model_load_s": 5.79,
+    "plan": {
+      "avoid": [
+        "technical terms like transpiration rates",
+        "formulas"
+      ],
+      "depth": "basic",
+      "exam_focus": [
+        "definitions of each step in the cycle",
+        "diagrams showing the cycle",
+        "questions on evaporation rate"
+      ],
+      "explanation_length_sentences": 5,
+      "explanation_style": "key points, diagrams or simplified explanations",
+      "image_style": {
+        "complexity": "simple",
+        "notes": "sun, clouds, rain and sea with arrows",
+        "type": "labeled textbook diagram"
+      },
+      "level": "school",
+      "mode": "exam",
+      "must_include": [
+        "evaporation",
+        "transpiration",
+        "condensation into clouds",
+        "rainfall",
+        "collection in rivers and seas"
+      ],
+      "subject_area": "geography / earth science",
+      "subtopic_focus": [
+        "water cycle basics",
+        "evaporation and condensation",
+        "clouds and precipitation",
+        "runoff and groundwater",
+        "oceanic circulation"
+      ],
+      "tone": "straightforward and concise",
+      "topic": "Water cycle"
+    },
+    "source": "qwen"
+  },
+  "explanation": "Key definitions for your exam: Evaporation is liquid water turning into gas using sun heat. Transpiration is water evaporating from plant leaves. Condensation is water vapor cooling into liquid to form clouds. Rainfall (precipitation) is water falling from clouds. Collection is water gathering in rivers and seas. Q: What is evaporation? A: The process where liquid water turns into water vapor. Q: How does water return to the ground? A: Through rainfall or precipitation. Q: What factors increase evaporation rates? A: Higher temperatures and stronger wind.",
+  "image_sources": [
+    "sana_base",
+    "sana_base",
+    "sana_lora",
+    "sana_lora",
+    "pollinations"
+  ],
+  "images": [
+    "http://127.0.0.1:5000/generated/723b7cefd91142eaa5e094047b20702b.png",
+    "http://127.0.0.1:5000/generated/b286f2bea346480593dd9efda06b55db.png",
+    "http://127.0.0.1:5000/generated/523d3a8d7426481d9ed866368d270b67.png",
+    "http://127.0.0.1:5000/generated/43b90a8608e740c48290daa9c2d522ff.png",
+    "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2Ftextbook%2520diagram%2520of%2520a%2520blue%2520globe%2520showing%2520large%2520curved%2520blue%2520arrows%2520moving%2520across%2520the%2520ocean%2520surface%2520between%2520continents.%2520textbook%2520diagram%2520style%252C%2520educational%252C%2520labeled%2520elements%252C%2520clean%2520white%2520background%252C%2520no%2520artistic%2520scenery.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Daccddd341db4%26width%3D640%26height%3D420"
+  ],
+  "level": "school",
+  "mode": "exam",
+  "subtopics": [
+    {
+      "brief": "The water cycle is the continuous movement of water on, above, and below the Earth's surface.",
+      "image_prompt": "textbook diagram of the water cycle showing a yellow sun, blue sea, green land, and white clouds connected by blue curved arrows",
+      "title": "Water Cycle Basics"
+    },
+    {
+      "brief": "Water turns into gas via evaporation from seas and transpiration from plants.",
+      "image_prompt": "textbook diagram showing a blue sea with vertical dotted blue arrows rising up towards the sun, and a green plant with arrows rising from its leaves",
+      "title": "Evaporation and Transpiration"
+    },
+    {
+      "brief": "Water vapor cools and forms clouds through condensation, then falls back down as rainfall.",
+      "image_prompt": "textbook diagram featuring fluffy white clouds turning grey, with downward blue vertical arrows representing rain falling onto mountains",
+      "title": "Clouds and Precipitation"
+    },
+    {
+      "brief": "Rainwater flows over land into rivers and sinks into the ground for collection.",
+      "image_prompt": "textbook diagram of a sloping hill showing blue streams flowing down into a river and blue arrows soaking deep into the ground",
+      "title": "Runoff and Groundwater"
+    },
+    {
+      "brief": "Collected water in oceans moves around the globe through large currents.",
+      "image_prompt": "textbook diagram of a blue globe showing large curved blue arrows moving across the ocean surface between continents",
+      "title": "Oceanic Circulation"
+    }
+  ],
+  "topic": "Water cycle"
+}

@@ -1,0 +1,93 @@
+{
+  "http_status": 200,
+  "response_seconds": 10.82,
+  "sana_images_done_seconds": 30.64,
+  "response": {
+    "analysis": {
+      "analysis_ms": 7038,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.215,
+      "plan": {
+        "avoid": [
+          "chemical equations",
+          "scientific jargon"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, easy-to-understand concepts, and everyday examples like leaves on trees",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "plant leaf with light source, chloroplasts, and carbon dioxide bubbles",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "photosynthesis",
+          "light energy conversion",
+          "carbon dioxide and water as reactants",
+          "oxygen and glucose as products"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "how plants make their own food using sunlight",
+          "the role of chlorophyll",
+          "stomata and photosynthetic pigments",
+          "leaf structure and function",
+          "fun facts and why it matters"
+        ],
+        "tone": "curious and engaging",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    "explanation": "Have you ever wondered how trees grow so big just by sitting outside? Plants are amazing living chefs that use a superpower called photosynthesis to make their own food from sunlight, air, and water. By soaking up light energy, they turn simple ingredients like carbon dioxide and water into sweet food to help them grow big and strong. As a fantastic bonus, they puff out fresh oxygen and glucose for us and all animals to enjoy every single day!",
+    "image_sources": [
+      "sana_base",
+      "sana_base",
+      "sana_lora",
+      "sana_lora",
+      "pollinations"
+    ],
+    "images": [
+      "http://127.0.0.1:5000/generated/a8e7767b85424d90990854da751e2873.png",
+      "http://127.0.0.1:5000/generated/72d84bb0f29849ebb26cf0815b6ee542.png",
+      "http://127.0.0.1:5000/generated/d7200b3fe6294cbf933b852b8c643902.png",
+      "http://127.0.0.1:5000/generated/b1bd6fb2e4894e1ea241a5490f051ca7.png",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2Ftextbook%2520diagram%2520of%2520a%2520leaf%2520releasing%2520red%2520bubbles%2520and%2520glowing%2520sweet%2520sugar%2520crystals%2520as%2520oxygen%2520and%2520glucose%2520as%2520products%252C%2520with%2520a%2520simple%2520plant%2520leaf%2520with%2520light%2520source%252C%2520chloroplasts%252C%2520and%2520c.%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Dd6a57bc7cee2%26width%3D640%26height%3D420"
+    ],
+    "level": "school",
+    "mode": "learn",
+    "subtopics": [
+      {
+        "brief": "Plants do not eat food like we do; they use sunlight to cook up their own meals right inside their leaves through a special process called photosynthesis.",
+        "image_prompt": "textbook diagram of a green tree leaf absorbing yellow light rays from a sun, with a simple plant leaf with light source, chloroplasts, and carbon dioxide bubbles style",
+        "title": "Kitchens on Trees"
+      },
+      {
+        "brief": "Leaves are green because of a special substance called chlorophyll, which acts like a tiny solar panel to catch light energy conversion from the sun.",
+        "image_prompt": "textbook diagram of green chloroplast circles inside a plant cell catching bright yellow light energy conversion rays, with a simple plant leaf with light source, chloroplasts, and carbon dioxide bubbles style",
+        "title": "The Magic Green Powder"
+      },
+      {
+        "brief": "Just like bakers need ingredients, plants take in carbon dioxide and water as reactants from the air and soil to make their food.",
+        "image_prompt": "textbook diagram of blue water droplet arrows moving up a plant stem and grey gas bubbles entering tiny leaf pores as carbon dioxide and water as reactants, with a simple plant leaf with light source, chloroplasts, and carbon dioxide bubbles style",
+        "title": "Bathing in Air and Water"
+      },
+      {
+        "brief": "Inside the flat layers of a leaf, these ingredients mix together like in a tiny kitchen factory to create wonderful new things.",
+        "image_prompt": "textbook diagram showing a cross section of a green leaf showing internal layers where mixing happens, with a simple plant leaf with light source, chloroplasts, and carbon dioxide bubbles style",
+        "title": "The Leaf Factory"
+      },
+      {
+        "brief": "As a delicious result, plants produce sweet glucose for energy and release fresh oxygen and glucose as products into the air for us to breathe.",
+        "image_prompt": "textbook diagram of a leaf releasing red bubbles and glowing sweet sugar crystals as oxygen and glucose as products, with a simple plant leaf with light source, chloroplasts, and carbon dioxide bubbles style",
+        "title": "Sweet Treats and Fresh Air"
+      }
+    ],
+    "topic": "Photosynthesis"
+  }
+}

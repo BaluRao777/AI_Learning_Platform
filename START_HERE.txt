@@ -1,0 +1,30 @@
+AI LEARNING PLATFORM - PORTABLE BUNDLE
+======================================
+
+This folder contains everything the project needs: all source code, the AI models
+(Qwen 2.5 1.5B, SANA 1.5 1.6B, the education LoRA) and the frontend packages.
+
+BEFORE YOU START (install once, if missing)
+  - Python 3.10 to 3.13   https://www.python.org/downloads/   (Windows: tick "Add python.exe to PATH")
+                          Ubuntu/Debian also: sudo apt install python3-venv
+  - Node.js LTS           https://nodejs.org/
+  - Internet access for the setup step (Python packages are downloaded once; their
+    builds depend on your OS, Python version and GPU, so they cannot be bundled)
+  - About 15 GB of free disk space
+  - Optional: an NVIDIA GPU (4 GB VRAM or more) for the local AI features
+
+SETUP (one command)
+  Windows:      double-click setup.bat   (or run it in Command Prompt)
+  Linux/macOS:  bash setup.sh
+
+  The setup detects your OS, checks whether this computer can run the project,
+  creates a Python environment in .venv, installs the right packages, asks for your
+  Gemini API key, writes backend/.env with this computer's paths, creates the database,
+  runs the tests and finally writes RUN_COMMANDS.txt.
+
+RUN
+  Open RUN_COMMANDS.txt and follow it (start the backend, start the frontend,
+  open http://localhost:3000).
+
+Without an NVIDIA GPU the setup still works: the app then runs in BASIC mode
+(Gemini text + Pollinations images, no local models).

@@ -1,0 +1,16 @@
+# Extra dependencies for the local AI features (Qwen input analyzer + SANA images).
+# Install AFTER a CUDA build of torch (see docs/SETUP_*.md), and after ../requirements.txt.
+# Not needed when ANALYZER_ENABLED=false and IMAGE_BACKEND=pollinations|remote.
+torch
+diffusers>=0.33
+transformers>=4.48
+accelerate
+peft
+bitsandbytes
+safetensors
+sentencepiece
+protobuf
+pillow
+psutil
+# tests
+pytest

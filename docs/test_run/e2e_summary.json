@@ -1,0 +1,44 @@
+[
+  {
+    "request": "photosynthesis_college_exam",
+    "http": 200,
+    "response_s": 19.09,
+    "all_images_done_s": 49.45,
+    "analysis_source": "qwen",
+    "analysis_ms": 14559,
+    "fields_from_rules": [],
+    "image_urls_generated": 5,
+    "image_urls_pollinations": 0,
+    "statuses": [
+      "done",
+      "done",
+      "done",
+      "done",
+      "done"
+    ],
+    "errors": [],
+    "first_subtopic": "Light-Dependent Reactions"
+  },
+  {
+    "request": "photosynthesis_school_learn",
+    "http": 200,
+    "response_s": 11.45,
+    "all_images_done_s": 37.5,
+    "analysis_source": "qwen",
+    "analysis_ms": 7916,
+    "fields_from_rules": [
+      "subtopic_focus (topped up)"
+    ],
+    "image_urls_generated": 5,
+    "image_urls_pollinations": 0,
+    "statuses": [
+      "done",
+      "done",
+      "done",
+      "done",
+      "done"
+    ],
+    "errors": [],
+    "first_subtopic": "Making Food with Sunlight"
+  }
+]

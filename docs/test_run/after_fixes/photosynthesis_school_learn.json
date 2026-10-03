@@ -1,0 +1,108 @@
+{
+  "http_status": 200,
+  "response_seconds": 10.97,
+  "all_images_done_seconds": 39.01,
+  "image_status": {
+    "e3903624b5974544a76fea84718f471f.png": {
+      "error": null,
+      "status": "done"
+    },
+    "f8adedeb238e4d96b1f24db75f6f72dc.png": {
+      "error": null,
+      "status": "done"
+    },
+    "ba4a74ea6ad54f1d9ef092899c760c75.png": {
+      "error": null,
+      "status": "done"
+    },
+    "7700fe9cd8da4efb961f7a8981751917.png": {
+      "error": null,
+      "status": "done"
+    },
+    "252a3d65f50d4489b818ae62bde15c34.png": {
+      "error": null,
+      "status": "done"
+    }
+  },
+  "response": {
+    "analysis": {
+      "analysis_ms": 7681,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.744,
+      "plan": {
+        "avoid": [
+          "chemical equations",
+          "scientific jargon"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, easy-to-understand concepts, and everyday examples like leaves on trees",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "plant leaf with light source, chloroplasts, and carbon dioxide bubbles",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "photosynthesis",
+          "light energy conversion",
+          "carbon dioxide and water as reactants",
+          "oxygen and glucose as products"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "how plants make their own food using sunlight",
+          "the role of chlorophyll",
+          "stomata and photosynthetic pigments",
+          "leaf structure and function",
+          "fun facts and why it matters"
+        ],
+        "tone": "curious and engaging",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    "explanation": "Have you ever wondered how a tiny seed grows into a huge tree without eating any food? Plants perform a clever magic trick called photosynthesis, using sunlight to turn carbon dioxide and water into sweet glucose for energy. While they cook up their meals inside their leaves, they also release fresh oxygen into the air as a wonderful bonus for us to breathe. Without this amazing ability to capture light energy, life on Earth wouldn't even be possible!",
+    "images": [
+      "http://127.0.0.1:5000/generated/e3903624b5974544a76fea84718f471f.png",
+      "http://127.0.0.1:5000/generated/f8adedeb238e4d96b1f24db75f6f72dc.png",
+      "http://127.0.0.1:5000/generated/ba4a74ea6ad54f1d9ef092899c760c75.png",
+      "http://127.0.0.1:5000/generated/7700fe9cd8da4efb961f7a8981751917.png",
+      "http://127.0.0.1:5000/generated/252a3d65f50d4489b818ae62bde15c34.png"
+    ],
+    "level": "school",
+    "mode": "learn",
+    "subtopics": [
+      {
+        "brief": "Plants don't need to go to the grocery store; they use sunlight to cook up their very own meals in a process called photosynthesis.",
+        "image_prompt": "textbook diagram showing a bright yellow sun shining golden light rays down onto a green leaf attached to a tree branch, with green arrows pointing from the sun into the leaf",
+        "title": "Kitchens in the Sun"
+      },
+      {
+        "brief": "Inside every leaf is a special green pigment called chlorophyll that acts like tiny solar panels to catch the light energy conversion.",
+        "image_prompt": "textbook diagram of a zoomed-in leaf cross-section showing bright green oval shapes acting like tiny solar collectors absorbing yellow light waves",
+        "title": "The Magic Green Powder"
+      },
+      {
+        "brief": "Leaves have tiny microscopic mouths that slurp in invisible carbon dioxide gas from the air and soak up water from the roots as their main ingredients.",
+        "image_prompt": "textbook diagram of the underside of a leaf showing tiny open mouth-like shapes with blue water droplets entering from the bottom and grey gas bubbles floating in",
+        "title": "Breathing In and Out"
+      },
+      {
+        "brief": "Once the plant mixes sunlight, water, and carbon dioxide together, it creates sweet glucose for food and releases fresh oxygen for us to breathe.",
+        "image_prompt": "textbook diagram of the inside of a leaf showing white sugar crystal shapes and glowing light blue bubbles representing fresh air floating out into the sky",
+        "title": "The Sweet Factory Inside"
+      },
+      {
+        "brief": "Photosynthesis is the ultimate superpower because it feeds nearly every living creature on Earth and keeps our air clean and fresh to breathe.",
+        "image_prompt": "textbook diagram of a smiling green plant connected by colorful arrows to a happy animal and a human, showing life-giving energy flowing in a circle",
+        "title": "Why Plants Rule the World"
+      }
+    ],
+    "topic": "Photosynthesis"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "http_status": 200,
+  "seconds": 23.79,
+  "response": {
+    "analysis": {
+      "analysis_ms": 20129,
+      "fields_from_rules": [],
+      "model_load_s": 1.233,
+      "plan": {
+        "avoid": [
+          "generalized explanations",
+          "simplistic analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "explaining geological processes through analogy and diagrams",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "cross-section of Earth showing layers and crust movement",
+          "type": "cross-section"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "plate tectonics",
+          "volcanoes",
+          "mountains",
+          "sedimentation",
+          "weathering and erosion"
+        ],
+        "subject_area": "geography / earth science",
+        "subtopic_focus": [
+          "how Earth's surface changes over time",
+          "formation of mountains",
+          "volcanic activity",
+          "landforms created by weathering and erosion",
+          "the role of plate tectonics"
+        ],
+        "tone": "curious and analytical",
+        "topic": "Earth"
+      },
+      "source": "qwen"
+    },
+    "explanation": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
+    "images": [
+      "http://127.0.0.1:5000/generated/94f284ed6562404ba55bd89e5081f5f1.png",
+      "http://127.0.0.1:5000/generated/edd83b72a6d54425aed9b2609b1d4623.png",
+      "http://127.0.0.1:5000/generated/db6dd77b7f944b8b8073e4bfaed1bf36.png",
+      "http://127.0.0.1:5000/generated/5c1d81e7f10c47eba249d433646c64a0.png",
+      "http://127.0.0.1:5000/generated/c2c72322a84c4602a069bebc8a482fa4.png"
+    ],
+    "level": "college",
+    "mode": "learn",
+    "subtopics": [
+      {
+        "brief": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water.",
+        "image_prompt": "Earth, Definition of Earth. clean definition infographic with labeled terms, high clarity, educational labels, no scenery, no animals.",
+        "title": "Definition of Earth"
+      },
+      {
+        "brief": "weather phenomena such as precipitation, allowing components such as carbon and nitrogen to cycle. Earth is rounded into an ellipsoid with a circumference",
+        "image_prompt": "Earth, Core Components of Earth. technical component diagram with labeled parts, high clarity, educational labels, no scenery, no animals.",
+        "title": "Core Components of Earth"
+      },
+      {
+        "brief": "that a reliable mechanism for determining Earth's age was established, proving the planet to be billions of years old. Images of Earth taken from space",
+        "image_prompt": "Earth, How Earth Works. step-by-step workflow illustration with arrows and labels, high clarity, educational labels, no scenery, no animals.",
+        "title": "How Earth Works"
+      },
+      {
+        "brief": "were created using 3D modeling applications such as SketchUp and, beginning in 2009, Building Maker, and were uploaded to Google Earth via the 3D Warehouse",
+        "image_prompt": "Earth, Applications of Earth. real-world application collage in classroom textbook style, high clarity, educational labels, no scenery, no animals.",
+        "title": "Applications of Earth"
+      },
+      {
+        "brief": "Hunen, J.; van den Berg, A.P. (2007).",
+        "image_prompt": "Earth, Common Challenges in Earth. comparison chart showing mistakes vs correct understanding, high clarity, educational labels, no scenery, no animals.",
+        "title": "Common Challenges in Earth"
+      }
+    ],
+    "topic": "Earth"
+  }
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top center, #111a36, #050810);
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Glass effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* Inputs */
+.form-control, .form-select {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+/* Button glow */
+.btn-glow {
+  background: linear-gradient(90deg, #3b82f6, #9333ea);
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 20px #3b82f6;
+  transform: scale(1.02);
+}
+
+/* Navbar */
+.navbar {
+  background: transparent !important;
+  backdrop-filter: blur(10px);
+}
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.glass-card {
+  position: relative;
+  z-index: 1; /* keep LOW */
+}
+body {
+  position: relative;
+  z-index: 0;
+}
+/* Smooth card animation */
+.animate-card {
+  animation: fadeUp 0.6s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Shake animation */
+.shake {
+  animation: shake 0.3s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}

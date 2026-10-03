@@ -1,0 +1,486 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.24.233:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: xxx-xxx-xxx
+127.0.0.1 - - [03/Oct/2026 18:01:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:37] "POST /login HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|          | 3/338 [00:00<00:13, 24.98it/s]Loading weights:  21%|██        | 71/338 [00:00<00:00, 380.70it/s]Loading weights:  44%|████▍     | 148/338 [00:00<00:00, 541.93it/s]Loading weights:  68%|██████▊   | 231/338 [00:00<00:00, 646.45it/s]Loading weights:  92%|█████████▏| 310/338 [00:00<00:00, 696.59it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 604.46it/s]
+MODEL MANAGER: loaded qwen_analyzer in 4.7s
+MODEL MANAGER: unloaded qwen_analyzer
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+GENERATE topic='Photosynthesis' level=college mode=exam analyzer=qwen analysis_ms=14559 content_ms=4514 image_backend=local total_ms=19086
+127.0.0.1 - - [03/Oct/2026 18:02:56] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:56] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:56] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:56] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:56] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:56] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:02:58] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:58] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:58] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:58] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:02:58] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+Loading weights:   0%|          | 1/288 [00:00<00:47,  6.10it/s]Loading weights:  16%|█▋        | 47/288 [00:00<00:01, 214.95it/s]Loading weights:  32%|███▏      | 92/288 [00:00<00:00, 303.45it/s]Loading weights:  47%|████▋     | 136/288 [00:00<00:00, 344.25it/s]Loading weights:  60%|██████    | 174/288 [00:00<00:00, 336.78it/s]Loading weights:  73%|███████▎  | 210/288 [00:00<00:00, 302.22it/s]Loading weights:  84%|████████▍ | 242/288 [00:00<00:00, 285.43it/s]Loading weights:  94%|█████████▍| 272/288 [00:00<00:00, 270.51it/s]Loading weights: 100%|██████████| 288/288 [00:01<00:00, 275.32it/s]
+/home/saneesh/miniconda3/envs/sana_train/lib/python3.11/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:03:01] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:01] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:02] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+Loading pipeline components...:  20%|██        | 1/5 [00:02<00:11,  2.78s/it]127.0.0.1 - - [03/Oct/2026 18:03:02] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:02] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+Loading pipeline components...:  80%|████████  | 4/5 [00:03<00:00,  1.66it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.61it/s]
+127.0.0.1 - - [03/Oct/2026 18:03:04] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:04] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:04] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:04] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:04] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+MODEL MANAGER: loaded sana_pipeline in 8.3s
+127.0.0.1 - - [03/Oct/2026 18:03:06] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:06] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:06] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:06] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:06] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:08] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:08] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:08] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:08] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:08] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+IMAGE JOB done id=39e01296e944403685296e756e44cd3f backend=local total_s=13.21 info={'seconds': 4.9, 'peak_vram_mb': 3155.5, 'offload': 'model', 'load_s': 8.258}
+127.0.0.1 - - [03/Oct/2026 18:03:10] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:10] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:10] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:10] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:10] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:12] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:12] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:12] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:12] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:12] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+IMAGE JOB done id=46ae5ebaf1394178a79b3c1d34820a5b backend=local total_s=3.58 info={'seconds': 3.54, 'peak_vram_mb': 3155.5, 'offload': 'model', 'load_s': 8.258}
+127.0.0.1 - - [03/Oct/2026 18:03:14] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:14] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:14] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:14] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:14] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:16] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:16] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:16] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:16] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:16] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+IMAGE JOB done id=32fd7b60525e4cf7bbfe6d67ce79923e backend=local total_s=4.85 info={'seconds': 4.77, 'peak_vram_mb': 3155.5, 'offload': 'model', 'load_s': 8.258}
+127.0.0.1 - - [03/Oct/2026 18:03:18] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:18] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:18] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:18] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:18] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:20] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:20] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:20] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:20] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:20] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+IMAGE JOB done id=eac7bf2bf3234798820815d6e2ecf33d backend=local total_s=3.62 info={'seconds': 3.56, 'peak_vram_mb': 3155.5, 'offload': 'model', 'load_s': 8.258}
+127.0.0.1 - - [03/Oct/2026 18:03:22] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:22] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:22] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:22] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:22] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:24] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:24] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:24] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:24] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:24] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+IMAGE JOB done id=6d0ade85dc9f4dd4a2d1133ce471230c backend=local total_s=4.66 info={'seconds': 4.56, 'peak_vram_mb': 3155.5, 'offload': 'model', 'load_s': 8.258}
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/39e01296e944403685296e756e44cd3f/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/39e01296e944403685296e756e44cd3f.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/46ae5ebaf1394178a79b3c1d34820a5b.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/32fd7b60525e4cf7bbfe6d67ce79923e.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/eac7bf2bf3234798820815d6e2ecf33d.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:26] "GET /generated/6d0ade85dc9f4dd4a2d1133ce471230c.png HTTP/1.1" 200 -
+MODEL MANAGER: unloaded sana_pipeline
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:33,  9.98it/s]Loading weights:  12%|█▏        | 41/338 [00:00<00:01, 231.17it/s]Loading weights:  26%|██▋       | 89/338 [00:00<00:00, 334.66it/s]Loading weights:  42%|████▏     | 143/338 [00:00<00:00, 411.64it/s]Loading weights:  58%|█████▊    | 196/338 [00:00<00:00, 452.27it/s]Loading weights:  76%|███████▌  | 256/338 [00:00<00:00, 496.56it/s]Loading weights:  93%|█████████▎| 315/338 [00:00<00:00, 523.44it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 446.89it/s]
+MODEL MANAGER: loaded qwen_analyzer in 1.7s
+MODEL MANAGER: unloaded qwen_analyzer
+GENERATE topic='Photosynthesis' level=school mode=learn analyzer=qwen analysis_ms=7916 content_ms=3510 image_backend=local total_ms=11443
+127.0.0.1 - - [03/Oct/2026 18:03:38] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:38] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:38] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:38] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:38] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:38] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<01:04,  4.48it/s]Loading weights:  11%|█         | 32/288 [00:00<00:02, 122.97it/s]Loading weights:  24%|██▍       | 69/288 [00:00<00:01, 205.79it/s]Loading weights:  35%|███▌      | 102/288 [00:00<00:00, 246.27it/s]Loading weights:  47%|████▋     | 135/288 [00:00<00:00, 271.66it/s]Loading weights:  59%|█████▉    | 170/288 [00:00<00:00, 290.35it/s]Loading weights:  74%|███████▍  | 213/288 [00:00<00:00, 330.65it/s]Loading weights:  89%|████████▉ | 257/288 [00:00<00:00, 357.20it/s]Loading weights: 100%|██████████| 288/288 [00:01<00:00, 283.27it/s]
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:03:41] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:41] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:41] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:41] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+Loading pipeline components...:  20%|██        | 1/5 [00:02<00:08,  2.09s/it]127.0.0.1 - - [03/Oct/2026 18:03:41] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+Loading pipeline components...:  80%|████████  | 4/5 [00:02<00:00,  2.25it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.15it/s]
+MODEL MANAGER: loaded sana_pipeline in 5.1s
+127.0.0.1 - - [03/Oct/2026 18:03:43] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:43] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:43] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:43] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:43] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:45] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:45] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:45] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:45] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:45] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+IMAGE JOB done id=4221d04408e64500bd200c92ec54e4c5 backend=local total_s=8.92 info={'seconds': 3.81, 'peak_vram_mb': 3163.5, 'offload': 'model', 'load_s': 5.055}
+127.0.0.1 - - [03/Oct/2026 18:03:47] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:47] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:47] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:47] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:47] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+IMAGE JOB done id=2048931179db42339a777320d1417dd7 backend=local total_s=2.87 info={'seconds': 2.82, 'peak_vram_mb': 3164.3, 'offload': 'model', 'load_s': 5.055}
+127.0.0.1 - - [03/Oct/2026 18:03:49] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:49] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:49] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:49] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:49] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:51] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:51] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:51] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:51] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:51] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:53] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:53] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:53] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:53] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:53] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+IMAGE JOB done id=169f9f25d9624a7fb7ebf251d42652bb backend=local total_s=4.5 info={'seconds': 4.26, 'peak_vram_mb': 3163.5, 'offload': 'model', 'load_s': 5.055}
+127.0.0.1 - - [03/Oct/2026 18:03:56] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:56] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:56] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:56] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:56] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:58] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:58] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:58] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:58] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:03:58] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+IMAGE JOB done id=e0943e7927fd4b7b9b883dc3e960a1d6 backend=local total_s=4.23 info={'seconds': 4.08, 'peak_vram_mb': 3164.3, 'offload': 'model', 'load_s': 5.055}
+127.0.0.1 - - [03/Oct/2026 18:04:00] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:00] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:00] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:00] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:00] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:02] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:02] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:02] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:02] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:02] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+IMAGE JOB done id=629bcb1d0688472c9bb416df20f579f4 backend=local total_s=4.14 info={'seconds': 4.06, 'peak_vram_mb': 3163.5, 'offload': 'model', 'load_s': 5.055}
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/4221d04408e64500bd200c92ec54e4c5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/2048931179db42339a777320d1417dd7/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/629bcb1d0688472c9bb416df20f579f4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/4221d04408e64500bd200c92ec54e4c5.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/2048931179db42339a777320d1417dd7.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/169f9f25d9624a7fb7ebf251d42652bb.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/e0943e7927fd4b7b9b883dc3e960a1d6.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:04:04] "GET /generated/629bcb1d0688472c9bb416df20f579f4.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:05:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:18:31] "OPTIONS /login HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:18:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:18:58] "OPTIONS /generate HTTP/1.1" 200 -
+MODEL MANAGER: unloaded sana_pipeline
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|          | 3/338 [00:00<00:11, 28.65it/s]Loading weights:  19%|█▉        | 65/338 [00:00<00:00, 364.82it/s]Loading weights:  40%|███▉      | 135/338 [00:00<00:00, 508.52it/s]Loading weights:  60%|██████    | 203/338 [00:00<00:00, 573.76it/s]Loading weights:  77%|███████▋  | 261/338 [00:00<00:00, 561.01it/s]Loading weights:  94%|█████████▍| 318/338 [00:00<00:00, 476.30it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 468.16it/s]
+MODEL MANAGER: loaded qwen_analyzer in 1.5s
+127.0.0.1 - - [03/Oct/2026 18:19:04] "OPTIONS /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:11] "OPTIONS /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:17] "OPTIONS /generate HTTP/1.1" 200 -
+MODEL MANAGER: unloaded qwen_analyzer
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   1%|          | 3/338 [00:00<00:11, 29.18it/s]Loading weights:  15%|█▌        | 52/338 [00:00<00:00, 289.44it/s]Loading weights:  33%|███▎      | 111/338 [00:00<00:00, 416.27it/s]Loading weights:  50%|████▉     | 168/338 [00:00<00:00, 475.42it/s]Loading weights:  65%|██████▌   | 221/338 [00:00<00:00, 494.23it/s]Loading weights:  84%|████████▍ | 285/338 [00:00<00:00, 543.08it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 485.55it/s]
+MODEL MANAGER: loaded qwen_analyzer in 1.9s
+GENERATE topic='forearm' level=school mode=learn analyzer=qwen analysis_ms=38824 content_ms=3808 image_backend=local total_ms=42639
+127.0.0.1 - - [03/Oct/2026 18:19:40] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/f0d9ef50c19044789a8995063a24e8d6.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:40] "GET /generated/9f2a11a1379842e982ecada6c699233a.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:43] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:43] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:43] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:43] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:43] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:47] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:47] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:47] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:47] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:47] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:50] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:50] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:50] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:50] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:50] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+MODEL MANAGER: unloaded qwen_analyzer
+127.0.0.1 - - [03/Oct/2026 18:19:53] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:53] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:53] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:53] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:53] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<01:20,  3.57it/s]Loading weights:   9%|▉         | 26/288 [00:00<00:03, 83.99it/s]Loading weights:  18%|█▊        | 53/288 [00:00<00:01, 142.42it/s]Loading weights:  28%|██▊       | 81/288 [00:00<00:01, 180.33it/s]Loading weights:  36%|███▌      | 104/288 [00:00<00:00, 193.48it/s]Loading weights:  44%|████▍     | 127/288 [00:00<00:00, 202.80it/s]Loading weights:  52%|█████▏    | 150/288 [00:00<00:00, 205.69it/s]Loading weights:  60%|██████    | 174/288 [00:01<00:00, 215.58it/s]Loading weights:  70%|██████▉   | 201/288 [00:01<00:00, 229.43it/s]Loading weights:  80%|███████▉  | 230/288 [00:01<00:00, 245.56it/s]Loading weights:  89%|████████▉ | 257/288 [00:01<00:00, 245.24it/s]Loading weights:  98%|█████████▊| 282/288 [00:01<00:00, 245.50it/s]Loading weights: 100%|██████████| 288/288 [00:01<00:00, 199.28it/s]
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]127.0.0.1 - - [03/Oct/2026 18:19:57] "GET /generated/f69885bc312f4e1eb2a4ea2ea3aab70d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:57] "GET /generated/f0d9ef50c19044789a8995063a24e8d6/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:57] "GET /generated/c4a31ab437a14a969ad03f8f2f2aa45d/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:57] "GET /generated/9f2a11a1379842e982ecada6c699233a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:57] "GET /generated/e89bbff1980148568ddfd2dbd7c943ba/status HTTP/1.1" 200 -
+GENERATE topic='forearm' level=school mode=learn analyzer=qwen analysis_ms=48632 content_ms=4606 image_backend=local total_ms=53291
+GENERATE topic='forearm' level=school mode=learn analyzer=qwen analysis_ms=41494 content_ms=4593 image_backend=local total_ms=46167
+127.0.0.1 - - [03/Oct/2026 18:19:57] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:57] "POST /generate HTTP/1.1" 200 -
+Loading pipeline components...:  20%|██        | 1/5 [00:03<00:12,  3.08s/it]127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/9a947033ad3c4e5e89831935b32b527a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/94e4eee283944b58b310f261dc86b2e4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/f64efe77384e4fb1a563d3f752d9130e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/d52cafc77baa43a6b1a7e2e53c69385a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/2244cfbd0fc64d3c8a74eca5318fe5e9/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/9a947033ad3c4e5e89831935b32b527a.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/94e4eee283944b58b310f261dc86b2e4.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/f64efe77384e4fb1a563d3f752d9130e.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/d52cafc77baa43a6b1a7e2e53c69385a.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:19:58] "GET /generated/2244cfbd0fc64d3c8a74eca5318fe5e9.png HTTP/1.1" 200 -
+Loading pipeline components...:  80%|████████  | 4/5 [00:03<00:00,  1.56it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  2.00it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:03<00:00,  1.46it/s]
+MODEL MANAGER: loaded sana_pipeline in 7.6s
+127.0.0.1 - - [03/Oct/2026 18:20:01] "GET /generated/9a947033ad3c4e5e89831935b32b527a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:01] "GET /generated/94e4eee283944b58b310f261dc86b2e4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:01] "GET /generated/f64efe77384e4fb1a563d3f752d9130e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:01] "GET /generated/d52cafc77baa43a6b1a7e2e53c69385a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:01] "GET /generated/2244cfbd0fc64d3c8a74eca5318fe5e9/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:04] "GET /generated/9a947033ad3c4e5e89831935b32b527a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:04] "GET /generated/94e4eee283944b58b310f261dc86b2e4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:04] "GET /generated/f64efe77384e4fb1a563d3f752d9130e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:04] "GET /generated/d52cafc77baa43a6b1a7e2e53c69385a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:04] "GET /generated/2244cfbd0fc64d3c8a74eca5318fe5e9/status HTTP/1.1" 200 -
+IMAGE JOB done id=f69885bc312f4e1eb2a4ea2ea3aab70d backend=local total_s=25.71 info={'seconds': 5.96, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:07] "GET /generated/9a947033ad3c4e5e89831935b32b527a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:07] "GET /generated/94e4eee283944b58b310f261dc86b2e4/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:07] "GET /generated/f64efe77384e4fb1a563d3f752d9130e/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:07] "GET /generated/d52cafc77baa43a6b1a7e2e53c69385a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:07] "GET /generated/2244cfbd0fc64d3c8a74eca5318fe5e9/status HTTP/1.1" 200 -
+GENERATE topic='forearm' level=school mode=learn analyzer=qwen analysis_ms=49330 content_ms=2862 image_backend=local total_ms=52198
+127.0.0.1 - - [03/Oct/2026 18:20:09] "POST /generate HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/86411c594aa84144be8ed189a2f50c4a.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/0acf6d3861b748eb883235a323223a74.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:09] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:12] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:12] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:12] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:12] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:12] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=f0d9ef50c19044789a8995063a24e8d6 backend=local total_s=6.2 info={'seconds': 6.04, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:15] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:15] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:15] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:15] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:15] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:18] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:18] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:18] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:18] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:18] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=c4a31ab437a14a969ad03f8f2f2aa45d backend=local total_s=7.35 info={'seconds': 7.26, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:21] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:21] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:21] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:21] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:21] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=e89bbff1980148568ddfd2dbd7c943ba backend=local total_s=4.0 info={'seconds': 3.78, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:24] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:24] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:24] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:24] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:24] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:27] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:27] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:27] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:27] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:27] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=9f2a11a1379842e982ecada6c699233a backend=local total_s=5.44 info={'seconds': 5.36, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:30] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:30] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:30] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:30] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:30] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:33] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:33] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:33] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:33] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:33] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=9a947033ad3c4e5e89831935b32b527a backend=local total_s=4.55 info={'seconds': 4.46, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:36] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:36] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:36] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:36] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:36] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=94e4eee283944b58b310f261dc86b2e4 backend=local total_s=5.37 info={'seconds': 5.11, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:39] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:39] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:39] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:39] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:39] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:42] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:42] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:42] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:42] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:42] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:45] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:45] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:45] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:45] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:45] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=f64efe77384e4fb1a563d3f752d9130e backend=local total_s=6.91 info={'seconds': 6.78, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:48] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:48] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:48] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:48] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:49] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:51] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:51] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:51] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:52] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:52] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=d52cafc77baa43a6b1a7e2e53c69385a backend=local total_s=6.36 info={'seconds': 6.1, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:20:54] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:55] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:55] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:55] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:55] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:58] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:58] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:58] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:58] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:20:58] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=2244cfbd0fc64d3c8a74eca5318fe5e9 backend=local total_s=5.93 info={'seconds': 5.86, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:01] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:01] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:01] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:01] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:01] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=5479ef04d1c743fba8343637007b5f9e backend=local total_s=4.74 info={'seconds': 4.59, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:04] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:04] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:04] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:04] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:04] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:07] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:07] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:07] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:07] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:07] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=5b3444c5252a46bf8dd56209ba473476 backend=local total_s=4.94 info={'seconds': 4.84, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:10] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:10] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:10] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:10] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:10] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=a3a59801470e431ca65c12d517e5b824 backend=local total_s=4.45 info={'seconds': 4.41, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:13] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:13] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:13] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:13] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:13] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:16] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:16] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:16] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:16] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:16] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:19] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:19] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:19] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:19] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:19] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=790b5b4b5f7d468fa2dd87a8c599a01d backend=local total_s=6.81 info={'seconds': 6.72, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:22] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:22] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:22] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:22] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:22] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=8f7ba6b3db2d4dd7b11e6a9d3f0c982e backend=local total_s=5.73 info={'seconds': 5.68, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:25] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:25] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:25] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:25] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:25] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:28] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:28] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:28] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:28] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:28] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=1f8c30d6730540a5a9c229aaee32b7a5 backend=local total_s=5.61 info={'seconds': 5.56, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:31] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:31] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:31] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5.png?v=1791031891490 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:31] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:31] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:31] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:34] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:34] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:34] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:34] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=86411c594aa84144be8ed189a2f50c4a backend=local total_s=4.12 info={'seconds': 3.87, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:37] "GET /generated/86411c594aa84144be8ed189a2f50c4a/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:37] "GET /generated/86411c594aa84144be8ed189a2f50c4a.png?v=1791031897525 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:37] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:37] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:37] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:40] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:40] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:40] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+IMAGE JOB done id=1f7882fed16b4621ad65f0f162fe5e43 backend=local total_s=5.77 info={'seconds': 5.7, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:43] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:43] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:43] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:43] "GET /generated/1f7882fed16b4621ad65f0f162fe5e43.png?v=1791031903754 HTTP/1.1" 200 -
+IMAGE JOB done id=0acf6d3861b748eb883235a323223a74 backend=local total_s=5.23 info={'seconds': 5.16, 'peak_vram_mb': 3189.1, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:46] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:46] "GET /generated/0acf6d3861b748eb883235a323223a74/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:46] "GET /generated/0acf6d3861b748eb883235a323223a74.png?v=1791031906781 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:49] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+IMAGE JOB done id=874b8a3e8c214f6886a55aafb26a48fe backend=local total_s=5.76 info={'seconds': 5.51, 'peak_vram_mb': 3189.2, 'offload': 'model', 'load_s': 7.602}
+127.0.0.1 - - [03/Oct/2026 18:21:52] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe/status HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:21:52] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe.png?v=1791031912852 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:22:08] "GET /generated/1f8c30d6730540a5a9c229aaee32b7a5.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:22:13] "GET /generated/86411c594aa84144be8ed189a2f50c4a.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:22:19] "GET /generated/874b8a3e8c214f6886a55aafb26a48fe.png HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2026 18:22:23] "GET /generated/0acf6d3861b748eb883235a323223a74.png HTTP/1.1" 200 -
+ * Detected change in "/home/saneesh/Documents/Rao's/text_to_image/text_to_image/backend/tests/test_prompt_builder.py", reloading
+ * Restarting with stat
+CONFIG analyzer=on qwen=Qwen/Qwen2.5-1.5B-Instruct qwen_4bit=True qwen_unload_after_use=True image_backend=local lora=none fused_transformer=none text_encoder_4bit=True offload=model size=512x512 steps=20 num_images=5 pollinations_fallback=False gemini_model=gemini-3.5-flash-lite gemini_key_set=yes
+ * Debugger is active!
+ * Debugger PIN: xxx-xxx-xxx

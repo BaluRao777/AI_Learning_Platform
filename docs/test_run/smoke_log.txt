@@ -1,0 +1,65 @@
+torch 2.14.1+cu130 | cuda available: True
+gpu: NVIDIA RTX 6000 Ada Generation
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:01<05:51,  1.04s/it]Loading weights:   1%|          | 3/338 [00:01<01:47,  3.12it/s]Loading weights:   1%|▏         | 5/338 [00:01<01:03,  5.27it/s]Loading weights:   5%|▍         | 16/338 [00:01<00:15, 20.24it/s]Loading weights:   8%|▊         | 27/338 [00:01<00:09, 32.32it/s]Loading weights:   9%|▉         | 32/338 [00:01<00:09, 33.47it/s]Loading weights:  12%|█▏        | 40/338 [00:01<00:07, 40.43it/s]Loading weights:  15%|█▌        | 51/338 [00:02<00:05, 50.09it/s]Loading weights:  17%|█▋        | 57/338 [00:02<00:05, 47.33it/s]Loading weights:  19%|█▉        | 64/338 [00:02<00:05, 46.35it/s]Loading weights:  22%|██▏       | 75/338 [00:02<00:04, 53.75it/s]Loading weights:  24%|██▍       | 81/338 [00:02<00:05, 50.44it/s]Loading weights:  26%|██▌       | 88/338 [00:02<00:05, 49.88it/s]Loading weights:  29%|██▉       | 99/338 [00:02<00:04, 55.20it/s]Loading weights:  31%|███       | 105/338 [00:03<00:05, 44.43it/s]Loading weights:  33%|███▎      | 112/338 [00:03<00:05, 44.27it/s]Loading weights:  36%|███▋      | 123/338 [00:03<00:04, 50.99it/s]Loading weights:  38%|███▊      | 129/338 [00:03<00:04, 47.04it/s]Loading weights:  40%|████      | 136/338 [00:03<00:04, 43.82it/s]Loading weights:  43%|████▎     | 147/338 [00:04<00:03, 50.49it/s]Loading weights:  45%|████▌     | 153/338 [00:04<00:03, 47.20it/s]Loading weights:  47%|████▋     | 160/338 [00:04<00:03, 46.64it/s]Loading weights:  49%|████▉     | 165/338 [00:04<00:03, 45.21it/s]Loading weights:  51%|█████     | 171/338 [00:04<00:03, 43.04it/s]Loading weights:  52%|█████▏    | 176/338 [00:04<00:04, 38.76it/s]Loading weights:  54%|█████▍    | 184/338 [00:04<00:03, 40.85it/s]Loading weights:  56%|█████▌    | 190/338 [00:05<00:03, 44.83it/s]Loading weights:  58%|█████▊    | 196/338 [00:05<00:03, 40.24it/s]Loading weights:  61%|██████    | 207/338 [00:05<00:02, 47.99it/s]Loading weights:  63%|██████▎   | 212/338 [00:05<00:02, 42.94it/s]Loading weights:  65%|██████▍   | 219/338 [00:05<00:02, 47.17it/s]Loading weights:  66%|██████▋   | 224/338 [00:05<00:02, 41.29it/s]Loading weights:  69%|██████▊   | 232/338 [00:06<00:02, 43.19it/s]Loading weights:  70%|███████   | 237/338 [00:06<00:02, 43.93it/s]Loading weights:  72%|███████▏  | 244/338 [00:06<00:02, 44.49it/s]Loading weights:  75%|███████▌  | 255/338 [00:06<00:02, 39.44it/s]Loading weights:  77%|███████▋  | 260/338 [00:06<00:02, 38.08it/s]Loading weights:  79%|███████▉  | 268/338 [00:06<00:01, 41.05it/s]Loading weights:  83%|████████▎ | 279/338 [00:07<00:01, 48.88it/s]Loading weights:  84%|████████▍ | 285/338 [00:07<00:01, 46.73it/s]Loading weights:  86%|████████▋ | 292/338 [00:07<00:00, 47.30it/s]Loading weights:  90%|████████▉ | 303/338 [00:07<00:00, 53.69it/s]Loading weights:  91%|█████████▏| 309/338 [00:07<00:00, 50.27it/s]Loading weights:  93%|█████████▎| 316/338 [00:07<00:00, 49.66it/s]Loading weights:  97%|█████████▋| 327/338 [00:07<00:00, 55.66it/s]Loading weights:  99%|█████████▊| 333/338 [00:08<00:00, 52.01it/s]Loading weights: 100%|██████████| 338/338 [00:08<00:00, 41.57it/s]
+MODEL MANAGER: loaded qwen_analyzer in 12.6s
+{
+  "source": "qwen",
+  "plan": {
+    "topic": "Photosynthesis",
+    "subject_area": "biology / plant physiology",
+    "level": "college",
+    "mode": "exam",
+    "depth": "advanced",
+    "tone": "technical and formal",
+    "explanation_style": "mechanism, cause-effect, comparison with other processes",
+    "explanation_length_sentences": 8,
+    "must_include": [
+      "photosynthesis as a process",
+      "light-dependent reactions",
+      "carbon dioxide and water conversion to glucose",
+      "stages of photosynthesis",
+      "comparison with cellular respiration",
+      "2-3 likely exam questions with answers"
+    ],
+    "avoid": [
+      "simplified explanations",
+      "analogies"
+    ],
+    "subtopic_focus": [
+      "light-dependent reactions",
+      "carbon fixation",
+      "glucose production",
+      "energy transfer",
+      "cellular respiration analogy"
+    ],
+    "exam_focus": [
+      "definition",
+      "mechanism",
+      "stages",
+      "comparison",
+      "likely questions"
+    ],
+    "image_style": {
+      "type": "labeled textbook diagram",
+      "complexity": "detailed",
+      "notes": "plant leaf with chloroplasts, light source, carbon dioxide and water molecules"
+    }
+  },
+  "analysis_ms": 18188,
+  "fields_from_rules": [],
+  "model_load_s": 12.551
+}
+QWEN source=qwen load_s=12.551 first_call_ms=18188 warm_call_ms=3464 peak_vram_mb=1200 rss_mb=1653
+MODEL MANAGER: unloaded qwen_analyzer
+after Qwen unload: vram_allocated_mb=8
+SANA prompt: college level, exam style clean labeled textbook diagram, a green leaf absorbing sunlight, water and carbon dioxide and releasing oxygen, educational illustration, clean background, minimal text
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<00:38,  7.42it/s]Loading weights:  17%|█▋        | 49/288 [00:00<00:00, 246.34it/s]Loading weights:  35%|███▌      | 102/288 [00:00<00:00, 363.58it/s]Loading weights:  51%|█████     | 147/288 [00:00<00:00, 394.40it/s]Loading weights:  70%|███████   | 202/288 [00:00<00:00, 440.82it/s]Loading weights:  89%|████████▉ | 257/288 [00:00<00:00, 476.53it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 412.71it/s]
+/home/saneesh/miniconda3/envs/sana_train/lib/python3.11/site-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.
+  deprecate("torch_dtype", "1.0.0", _TORCH_DTYPE_DEPRECATION_MESSAGE)
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Efficient-Large-Model/SANA1.5_1.6B_1024px_diffusers: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  2.56it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.47it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:02<00:00,  2.48it/s]
+MODEL MANAGER: loaded sana_pipeline in 4.8s
+SANA image 1: {'seconds': 4.18, 'peak_vram_mb': 3155.5, 'offload': 'model', 'load_s': 4.818} size=(512, 512) rss_mb=8196
+SANA total_s=9.0 for 1 image(s) incl. load; peak_rss_mb=8196; saved docs/test_run/smoke.png

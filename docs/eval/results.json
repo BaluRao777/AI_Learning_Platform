@@ -1,0 +1,1450 @@
+{
+  "clip_model": "openai/clip-vit-large-patch14",
+  "num_prompts": 80,
+  "by_size": {
+    "1024": {
+      "clip_base": {
+        "mean": 0.2762,
+        "std": 0.0327,
+        "n": 80
+      },
+      "clip_lora": {
+        "mean": 0.2545,
+        "std": 0.0412,
+        "n": 80
+      },
+      "clip_diff_lora_minus_base": {
+        "mean": -0.0217,
+        "std": 0.0453,
+        "n": 80
+      },
+      "lora_better_count": 24,
+      "seconds_per_image_base": {
+        "mean": 2.0385,
+        "std": 0.0317,
+        "n": 80
+      },
+      "seconds_per_image_lora": {
+        "mean": 2.1153,
+        "std": 0.0728,
+        "n": 80
+      },
+      "peak_vram_mb_base": 9158.5,
+      "peak_vram_mb_lora": 9192.0,
+      "by_combination": {
+        "college/exam": {
+          "clip_base": {
+            "mean": 0.2662,
+            "std": 0.034,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2491,
+            "std": 0.0423,
+            "n": 20
+          }
+        },
+        "college/learn": {
+          "clip_base": {
+            "mean": 0.2749,
+            "std": 0.0281,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2545,
+            "std": 0.0384,
+            "n": 20
+          }
+        },
+        "school/exam": {
+          "clip_base": {
+            "mean": 0.2682,
+            "std": 0.0294,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2651,
+            "std": 0.0382,
+            "n": 20
+          }
+        },
+        "school/learn": {
+          "clip_base": {
+            "mean": 0.2955,
+            "std": 0.0327,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2493,
+            "std": 0.0465,
+            "n": 20
+          }
+        }
+      },
+      "per_prompt": [
+        {
+          "id": 0,
+          "topic": "Photosynthesis",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3032,
+          "clip_lora": 0.2546
+        },
+        {
+          "id": 1,
+          "topic": "Photosynthesis",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2876,
+          "clip_lora": 0.2447
+        },
+        {
+          "id": 2,
+          "topic": "Photosynthesis",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2942,
+          "clip_lora": 0.2551
+        },
+        {
+          "id": 3,
+          "topic": "Photosynthesis",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2693,
+          "clip_lora": 0.2531
+        },
+        {
+          "id": 4,
+          "topic": "Water cycle",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3226,
+          "clip_lora": 0.2968
+        },
+        {
+          "id": 5,
+          "topic": "Water cycle",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.3154,
+          "clip_lora": 0.2735
+        },
+        {
+          "id": 6,
+          "topic": "Water cycle",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2581,
+          "clip_lora": 0.284
+        },
+        {
+          "id": 7,
+          "topic": "Water cycle",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2967,
+          "clip_lora": 0.2793
+        },
+        {
+          "id": 8,
+          "topic": "Structure of the Earth",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3064,
+          "clip_lora": 0.3088
+        },
+        {
+          "id": 9,
+          "topic": "Structure of the Earth",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2835,
+          "clip_lora": 0.2777
+        },
+        {
+          "id": 10,
+          "topic": "Structure of the Earth",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2338,
+          "clip_lora": 0.2593
+        },
+        {
+          "id": 11,
+          "topic": "Structure of the Earth",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.3366,
+          "clip_lora": 0.2527
+        },
+        {
+          "id": 12,
+          "topic": "Human heart",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2778,
+          "clip_lora": 0.2651
+        },
+        {
+          "id": 13,
+          "topic": "Human heart",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.262,
+          "clip_lora": 0.2517
+        },
+        {
+          "id": 14,
+          "topic": "Human heart",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2737,
+          "clip_lora": 0.2766
+        },
+        {
+          "id": 15,
+          "topic": "Human heart",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2499,
+          "clip_lora": 0.2538
+        },
+        {
+          "id": 16,
+          "topic": "Plant cell",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2457,
+          "clip_lora": 0.2222
+        },
+        {
+          "id": 17,
+          "topic": "Plant cell",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2717,
+          "clip_lora": 0.1902
+        },
+        {
+          "id": 18,
+          "topic": "Plant cell",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2606,
+          "clip_lora": 0.2489
+        },
+        {
+          "id": 19,
+          "topic": "Plant cell",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2132,
+          "clip_lora": 0.1878
+        },
+        {
+          "id": 20,
+          "topic": "Solar system",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3042,
+          "clip_lora": 0.2676
+        },
+        {
+          "id": 21,
+          "topic": "Solar system",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2794,
+          "clip_lora": 0.3243
+        },
+        {
+          "id": 22,
+          "topic": "Solar system",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2913,
+          "clip_lora": 0.2767
+        },
+        {
+          "id": 23,
+          "topic": "Solar system",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2954,
+          "clip_lora": 0.2836
+        },
+        {
+          "id": 24,
+          "topic": "Volcano",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3506,
+          "clip_lora": 0.3236
+        },
+        {
+          "id": 25,
+          "topic": "Volcano",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.3236,
+          "clip_lora": 0.3329
+        },
+        {
+          "id": 26,
+          "topic": "Volcano",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3133,
+          "clip_lora": 0.3275
+        },
+        {
+          "id": 27,
+          "topic": "Volcano",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.3105,
+          "clip_lora": 0.3097
+        },
+        {
+          "id": 28,
+          "topic": "Human digestive system",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2818,
+          "clip_lora": 0.2838
+        },
+        {
+          "id": 29,
+          "topic": "Human digestive system",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2552,
+          "clip_lora": 0.2461
+        },
+        {
+          "id": 30,
+          "topic": "Human digestive system",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2757,
+          "clip_lora": 0.1719
+        },
+        {
+          "id": 31,
+          "topic": "Human digestive system",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.262,
+          "clip_lora": 0.2706
+        },
+        {
+          "id": 32,
+          "topic": "Food chain",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3548,
+          "clip_lora": 0.2287
+        },
+        {
+          "id": 33,
+          "topic": "Food chain",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2823,
+          "clip_lora": 0.2823
+        },
+        {
+          "id": 34,
+          "topic": "Food chain",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3308,
+          "clip_lora": 0.2509
+        },
+        {
+          "id": 35,
+          "topic": "Food chain",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2671,
+          "clip_lora": 0.2566
+        },
+        {
+          "id": 36,
+          "topic": "Electric circuit",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2705,
+          "clip_lora": 0.2228
+        },
+        {
+          "id": 37,
+          "topic": "Electric circuit",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.224,
+          "clip_lora": 0.2129
+        },
+        {
+          "id": 38,
+          "topic": "Electric circuit",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2653,
+          "clip_lora": 0.288
+        },
+        {
+          "id": 39,
+          "topic": "Electric circuit",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2057,
+          "clip_lora": 0.1632
+        },
+        {
+          "id": 40,
+          "topic": "Refraction of light",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.239,
+          "clip_lora": 0.2239
+        },
+        {
+          "id": 41,
+          "topic": "Refraction of light",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2581,
+          "clip_lora": 0.2075
+        },
+        {
+          "id": 42,
+          "topic": "Refraction of light",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2385,
+          "clip_lora": 0.2092
+        },
+        {
+          "id": 43,
+          "topic": "Refraction of light",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2948,
+          "clip_lora": 0.2158
+        },
+        {
+          "id": 44,
+          "topic": "Atom structure",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3156,
+          "clip_lora": 0.2988
+        },
+        {
+          "id": 45,
+          "topic": "Atom structure",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.3073,
+          "clip_lora": 0.2907
+        },
+        {
+          "id": 46,
+          "topic": "Atom structure",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2436,
+          "clip_lora": 0.2901
+        },
+        {
+          "id": 47,
+          "topic": "Atom structure",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2797,
+          "clip_lora": 0.305
+        },
+        {
+          "id": 48,
+          "topic": "DNA double helix",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2612,
+          "clip_lora": 0.2478
+        },
+        {
+          "id": 49,
+          "topic": "DNA double helix",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2575,
+          "clip_lora": 0.2329
+        },
+        {
+          "id": 50,
+          "topic": "DNA double helix",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2751,
+          "clip_lora": 0.2675
+        },
+        {
+          "id": 51,
+          "topic": "DNA double helix",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2453,
+          "clip_lora": 0.2839
+        },
+        {
+          "id": 52,
+          "topic": "Rock cycle",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3308,
+          "clip_lora": 0.191
+        },
+        {
+          "id": 53,
+          "topic": "Rock cycle",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2312,
+          "clip_lora": 0.259
+        },
+        {
+          "id": 54,
+          "topic": "Rock cycle",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2565,
+          "clip_lora": 0.1698
+        },
+        {
+          "id": 55,
+          "topic": "Rock cycle",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2827,
+          "clip_lora": 0.2469
+        },
+        {
+          "id": 56,
+          "topic": "Neuron",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2723,
+          "clip_lora": 0.2453
+        },
+        {
+          "id": 57,
+          "topic": "Neuron",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2648,
+          "clip_lora": 0.2427
+        },
+        {
+          "id": 58,
+          "topic": "Neuron",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2345,
+          "clip_lora": 0.2563
+        },
+        {
+          "id": 59,
+          "topic": "Neuron",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2025,
+          "clip_lora": 0.2724
+        },
+        {
+          "id": 60,
+          "topic": "Human respiratory system",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2694,
+          "clip_lora": 0.2533
+        },
+        {
+          "id": 61,
+          "topic": "Human respiratory system",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2423,
+          "clip_lora": 0.2831
+        },
+        {
+          "id": 62,
+          "topic": "Human respiratory system",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2525,
+          "clip_lora": 0.2671
+        },
+        {
+          "id": 63,
+          "topic": "Human respiratory system",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2416,
+          "clip_lora": 0.2398
+        },
+        {
+          "id": 64,
+          "topic": "Phases of the Moon",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3104,
+          "clip_lora": 0.2832
+        },
+        {
+          "id": 65,
+          "topic": "Phases of the Moon",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.238,
+          "clip_lora": 0.2553
+        },
+        {
+          "id": 66,
+          "topic": "Phases of the Moon",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3023,
+          "clip_lora": 0.229
+        },
+        {
+          "id": 67,
+          "topic": "Phases of the Moon",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2732,
+          "clip_lora": 0.2906
+        },
+        {
+          "id": 68,
+          "topic": "Plate tectonics",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3312,
+          "clip_lora": 0.2014
+        },
+        {
+          "id": 69,
+          "topic": "Plate tectonics",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2221,
+          "clip_lora": 0.2778
+        },
+        {
+          "id": 70,
+          "topic": "Plate tectonics",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2907,
+          "clip_lora": 0.2765
+        },
+        {
+          "id": 71,
+          "topic": "Plate tectonics",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2666,
+          "clip_lora": 0.2173
+        },
+        {
+          "id": 72,
+          "topic": "Life cycle of a butterfly",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2808,
+          "clip_lora": 0.2461
+        },
+        {
+          "id": 73,
+          "topic": "Life cycle of a butterfly",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.3003,
+          "clip_lora": 0.311
+        },
+        {
+          "id": 74,
+          "topic": "Life cycle of a butterfly",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3109,
+          "clip_lora": 0.2599
+        },
+        {
+          "id": 75,
+          "topic": "Life cycle of a butterfly",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.26,
+          "clip_lora": 0.2372
+        },
+        {
+          "id": 76,
+          "topic": "Greenhouse effect",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2824,
+          "clip_lora": 0.1221
+        },
+        {
+          "id": 77,
+          "topic": "Greenhouse effect",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2576,
+          "clip_lora": 0.3055
+        },
+        {
+          "id": 78,
+          "topic": "Greenhouse effect",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2958,
+          "clip_lora": 0.225
+        },
+        {
+          "id": 79,
+          "topic": "Greenhouse effect",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2702,
+          "clip_lora": 0.1621
+        }
+      ]
+    },
+    "512": {
+      "clip_base": {
+        "mean": 0.2515,
+        "std": 0.0395,
+        "n": 80
+      },
+      "clip_lora": {
+        "mean": 0.2087,
+        "std": 0.0465,
+        "n": 80
+      },
+      "clip_diff_lora_minus_base": {
+        "mean": -0.0428,
+        "std": 0.0497,
+        "n": 80
+      },
+      "lora_better_count": 12,
+      "seconds_per_image_base": {
+        "mean": 0.5951,
+        "std": 0.1165,
+        "n": 80
+      },
+      "seconds_per_image_lora": {
+        "mean": 0.7726,
+        "std": 0.1843,
+        "n": 80
+      },
+      "peak_vram_mb_base": 9152.8,
+      "peak_vram_mb_lora": 9186.3,
+      "by_combination": {
+        "college/exam": {
+          "clip_base": {
+            "mean": 0.2438,
+            "std": 0.0371,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2183,
+            "std": 0.0395,
+            "n": 20
+          }
+        },
+        "college/learn": {
+          "clip_base": {
+            "mean": 0.2609,
+            "std": 0.0387,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2025,
+            "std": 0.0437,
+            "n": 20
+          }
+        },
+        "school/exam": {
+          "clip_base": {
+            "mean": 0.2398,
+            "std": 0.0484,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2034,
+            "std": 0.0574,
+            "n": 20
+          }
+        },
+        "school/learn": {
+          "clip_base": {
+            "mean": 0.2617,
+            "std": 0.0292,
+            "n": 20
+          },
+          "clip_lora": {
+            "mean": 0.2108,
+            "std": 0.0453,
+            "n": 20
+          }
+        }
+      },
+      "per_prompt": [
+        {
+          "id": 0,
+          "topic": "Photosynthesis",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2679,
+          "clip_lora": 0.2227
+        },
+        {
+          "id": 1,
+          "topic": "Photosynthesis",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2515,
+          "clip_lora": 0.2832
+        },
+        {
+          "id": 2,
+          "topic": "Photosynthesis",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3019,
+          "clip_lora": 0.2404
+        },
+        {
+          "id": 3,
+          "topic": "Photosynthesis",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2434,
+          "clip_lora": 0.23
+        },
+        {
+          "id": 4,
+          "topic": "Water cycle",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2384,
+          "clip_lora": 0.235
+        },
+        {
+          "id": 5,
+          "topic": "Water cycle",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2904,
+          "clip_lora": 0.1614
+        },
+        {
+          "id": 6,
+          "topic": "Water cycle",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.247,
+          "clip_lora": 0.1438
+        },
+        {
+          "id": 7,
+          "topic": "Water cycle",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2619,
+          "clip_lora": 0.2046
+        },
+        {
+          "id": 8,
+          "topic": "Structure of the Earth",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2484,
+          "clip_lora": 0.2001
+        },
+        {
+          "id": 9,
+          "topic": "Structure of the Earth",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2408,
+          "clip_lora": 0.1571
+        },
+        {
+          "id": 10,
+          "topic": "Structure of the Earth",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2226,
+          "clip_lora": 0.1884
+        },
+        {
+          "id": 11,
+          "topic": "Structure of the Earth",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.1926,
+          "clip_lora": 0.1597
+        },
+        {
+          "id": 12,
+          "topic": "Human heart",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2658,
+          "clip_lora": 0.186
+        },
+        {
+          "id": 13,
+          "topic": "Human heart",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2857,
+          "clip_lora": 0.1348
+        },
+        {
+          "id": 14,
+          "topic": "Human heart",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2612,
+          "clip_lora": 0.1986
+        },
+        {
+          "id": 15,
+          "topic": "Human heart",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.1791,
+          "clip_lora": 0.163
+        },
+        {
+          "id": 16,
+          "topic": "Plant cell",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2279,
+          "clip_lora": 0.2153
+        },
+        {
+          "id": 17,
+          "topic": "Plant cell",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.1251,
+          "clip_lora": 0.141
+        },
+        {
+          "id": 18,
+          "topic": "Plant cell",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.223,
+          "clip_lora": 0.2171
+        },
+        {
+          "id": 19,
+          "topic": "Plant cell",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.1629,
+          "clip_lora": 0.164
+        },
+        {
+          "id": 20,
+          "topic": "Solar system",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2876,
+          "clip_lora": 0.2133
+        },
+        {
+          "id": 21,
+          "topic": "Solar system",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2821,
+          "clip_lora": 0.2359
+        },
+        {
+          "id": 22,
+          "topic": "Solar system",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2938,
+          "clip_lora": 0.2562
+        },
+        {
+          "id": 23,
+          "topic": "Solar system",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2675,
+          "clip_lora": 0.27
+        },
+        {
+          "id": 24,
+          "topic": "Volcano",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3206,
+          "clip_lora": 0.3093
+        },
+        {
+          "id": 25,
+          "topic": "Volcano",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.3005,
+          "clip_lora": 0.2682
+        },
+        {
+          "id": 26,
+          "topic": "Volcano",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3046,
+          "clip_lora": 0.1055
+        },
+        {
+          "id": 27,
+          "topic": "Volcano",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.311,
+          "clip_lora": 0.2949
+        },
+        {
+          "id": 28,
+          "topic": "Human digestive system",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.3106,
+          "clip_lora": 0.1982
+        },
+        {
+          "id": 29,
+          "topic": "Human digestive system",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2564,
+          "clip_lora": 0.2166
+        },
+        {
+          "id": 30,
+          "topic": "Human digestive system",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.1856,
+          "clip_lora": 0.1732
+        },
+        {
+          "id": 31,
+          "topic": "Human digestive system",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.255,
+          "clip_lora": 0.2189
+        },
+        {
+          "id": 32,
+          "topic": "Food chain",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2496,
+          "clip_lora": 0.2028
+        },
+        {
+          "id": 33,
+          "topic": "Food chain",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2959,
+          "clip_lora": 0.2056
+        },
+        {
+          "id": 34,
+          "topic": "Food chain",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3027,
+          "clip_lora": 0.2265
+        },
+        {
+          "id": 35,
+          "topic": "Food chain",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2557,
+          "clip_lora": 0.2329
+        },
+        {
+          "id": 36,
+          "topic": "Electric circuit",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2002,
+          "clip_lora": 0.1988
+        },
+        {
+          "id": 37,
+          "topic": "Electric circuit",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.1662,
+          "clip_lora": 0.1623
+        },
+        {
+          "id": 38,
+          "topic": "Electric circuit",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.272,
+          "clip_lora": 0.272
+        },
+        {
+          "id": 39,
+          "topic": "Electric circuit",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2314,
+          "clip_lora": 0.2841
+        },
+        {
+          "id": 40,
+          "topic": "Refraction of light",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2484,
+          "clip_lora": 0.2504
+        },
+        {
+          "id": 41,
+          "topic": "Refraction of light",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.1678,
+          "clip_lora": 0.1552
+        },
+        {
+          "id": 42,
+          "topic": "Refraction of light",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.1796,
+          "clip_lora": 0.1711
+        },
+        {
+          "id": 43,
+          "topic": "Refraction of light",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2425,
+          "clip_lora": 0.1869
+        },
+        {
+          "id": 44,
+          "topic": "Atom structure",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2838,
+          "clip_lora": 0.1537
+        },
+        {
+          "id": 45,
+          "topic": "Atom structure",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2208,
+          "clip_lora": 0.2172
+        },
+        {
+          "id": 46,
+          "topic": "Atom structure",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2398,
+          "clip_lora": 0.1615
+        },
+        {
+          "id": 47,
+          "topic": "Atom structure",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.221,
+          "clip_lora": 0.2332
+        },
+        {
+          "id": 48,
+          "topic": "DNA double helix",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2765,
+          "clip_lora": 0.1969
+        },
+        {
+          "id": 49,
+          "topic": "DNA double helix",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2366,
+          "clip_lora": 0.1372
+        },
+        {
+          "id": 50,
+          "topic": "DNA double helix",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2525,
+          "clip_lora": 0.2589
+        },
+        {
+          "id": 51,
+          "topic": "DNA double helix",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2583,
+          "clip_lora": 0.2094
+        },
+        {
+          "id": 52,
+          "topic": "Rock cycle",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2409,
+          "clip_lora": 0.1249
+        },
+        {
+          "id": 53,
+          "topic": "Rock cycle",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.236,
+          "clip_lora": 0.2071
+        },
+        {
+          "id": 54,
+          "topic": "Rock cycle",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2755,
+          "clip_lora": 0.1931
+        },
+        {
+          "id": 55,
+          "topic": "Rock cycle",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.266,
+          "clip_lora": 0.1922
+        },
+        {
+          "id": 56,
+          "topic": "Neuron",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2343,
+          "clip_lora": 0.2339
+        },
+        {
+          "id": 57,
+          "topic": "Neuron",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.1665,
+          "clip_lora": 0.1401
+        },
+        {
+          "id": 58,
+          "topic": "Neuron",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2921,
+          "clip_lora": 0.1408
+        },
+        {
+          "id": 59,
+          "topic": "Neuron",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2531,
+          "clip_lora": 0.2714
+        },
+        {
+          "id": 60,
+          "topic": "Human respiratory system",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2941,
+          "clip_lora": 0.2927
+        },
+        {
+          "id": 61,
+          "topic": "Human respiratory system",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.246,
+          "clip_lora": 0.2799
+        },
+        {
+          "id": 62,
+          "topic": "Human respiratory system",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2559,
+          "clip_lora": 0.2294
+        },
+        {
+          "id": 63,
+          "topic": "Human respiratory system",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2563,
+          "clip_lora": 0.2294
+        },
+        {
+          "id": 64,
+          "topic": "Phases of the Moon",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2399,
+          "clip_lora": 0.1911
+        },
+        {
+          "id": 65,
+          "topic": "Phases of the Moon",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.263,
+          "clip_lora": 0.2396
+        },
+        {
+          "id": 66,
+          "topic": "Phases of the Moon",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.2269,
+          "clip_lora": 0.2263
+        },
+        {
+          "id": 67,
+          "topic": "Phases of the Moon",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2107,
+          "clip_lora": 0.2056
+        },
+        {
+          "id": 68,
+          "topic": "Plate tectonics",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2657,
+          "clip_lora": 0.2522
+        },
+        {
+          "id": 69,
+          "topic": "Plate tectonics",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2486,
+          "clip_lora": 0.1706
+        },
+        {
+          "id": 70,
+          "topic": "Plate tectonics",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3032,
+          "clip_lora": 0.2358
+        },
+        {
+          "id": 71,
+          "topic": "Plate tectonics",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2738,
+          "clip_lora": 0.1927
+        },
+        {
+          "id": 72,
+          "topic": "Life cycle of a butterfly",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2741,
+          "clip_lora": 0.2024
+        },
+        {
+          "id": 73,
+          "topic": "Life cycle of a butterfly",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.26,
+          "clip_lora": 0.3345
+        },
+        {
+          "id": 74,
+          "topic": "Life cycle of a butterfly",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.277,
+          "clip_lora": 0.2154
+        },
+        {
+          "id": 75,
+          "topic": "Life cycle of a butterfly",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.3023,
+          "clip_lora": 0.1894
+        },
+        {
+          "id": 76,
+          "topic": "Greenhouse effect",
+          "level": "school",
+          "mode": "learn",
+          "clip_base": 0.2587,
+          "clip_lora": 0.1362
+        },
+        {
+          "id": 77,
+          "topic": "Greenhouse effect",
+          "level": "school",
+          "mode": "exam",
+          "clip_base": 0.2561,
+          "clip_lora": 0.2207
+        },
+        {
+          "id": 78,
+          "topic": "Greenhouse effect",
+          "level": "college",
+          "mode": "learn",
+          "clip_base": 0.3012,
+          "clip_lora": 0.1954
+        },
+        {
+          "id": 79,
+          "topic": "Greenhouse effect",
+          "level": "college",
+          "mode": "exam",
+          "clip_base": 0.2321,
+          "clip_lora": 0.2335
+        }
+      ]
+    }
+  }
+}

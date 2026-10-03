@@ -1,0 +1,89 @@
+{
+  "http_status": 200,
+  "seconds": 23.27,
+  "response": {
+    "analysis": {
+      "analysis_ms": 19718,
+      "fields_from_rules": [],
+      "model_load_s": 1.478,
+      "plan": {
+        "avoid": [
+          "photosynthetic pigments",
+          "cellular respiration"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition of photosynthesis",
+          "light-dependent reactions",
+          "glucose production",
+          "challenges in agricultural practices"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "explaining photosynthesis as a process that converts light energy into chemical energy",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "plant leaf with sun, chlorophyll, carbon dioxide, water and glucose molecules",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "light-dependent reactions",
+          "carbon dioxide and water",
+          "chlorophyll",
+          "glucose production",
+          "stomata and chloroplasts"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "how plants use sunlight to make food",
+          "chemical reactions involved",
+          "role of chlorophyll",
+          "production of glucose",
+          "function of stomata and chloroplasts"
+        ],
+        "tone": "curious and informative",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    "explanation": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy\u2014typically from sunlight\u2014into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds, typically carbohydrates like sugars, starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth.",
+    "images": [
+      "http://127.0.0.1:5000/generated/95496c673c99462ab286e76c48532f6b.png",
+      "http://127.0.0.1:5000/generated/861349609d6e44499706fee77c569984.png",
+      "http://127.0.0.1:5000/generated/d9ac7218e28143db834d7137b08ea7a9.png",
+      "http://127.0.0.1:5000/generated/1c7c2f8f97f14544a77e0bdeb8c0c0d9.png",
+      "http://127.0.0.1:5000/generated/3e65cff2a29b435fa27f89e970f9c652.png"
+    ],
+    "level": "school",
+    "mode": "exam",
+    "subtopics": [
+      {
+        "brief": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy\u2014typically from sunlight\u2014into the chemical energy necessary to fuel their metabolism. The term photosynthesis...",
+        "image_prompt": "Photosynthesis, Definition of Photosynthesis. clean definition infographic with labeled terms, high clarity, educational labels, no scenery, no animals.",
+        "title": "Definition of Photosynthesis"
+      },
+      {
+        "brief": "phylum Cyanobacteriota that can obtain biological energy via oxygenic photosynthesis . Cyanobacteria originated in a freshwater or terrestrial environment",
+        "image_prompt": "Photosynthesis, Core Components of Photosynthesis. technical component diagram with labeled parts, high clarity, educational labels, no scenery, no animals.",
+        "title": "Core Components of Photosynthesis"
+      },
+      {
+        "brief": "evidence of inducible C4 photosynthesis by non-kranz aquatic macrophyte Hydrilla verticillata under warm conditions, although the mechanism by which CO2 leakage",
+        "image_prompt": "Photosynthesis, How Photosynthesis Works. step-by-step workflow illustration with arrows and labels, high clarity, educational labels, no scenery, no animals.",
+        "title": "How Photosynthesis Works"
+      },
+      {
+        "brief": "Artificial photosynthesis is a chemical process that biomimics the natural process of photosynthesis . The term artificial photosynthesis is used loosely",
+        "image_prompt": "Photosynthesis, Applications of Photosynthesis. real-world application collage in classroom textbook style, high clarity, educational labels, no scenery, no animals.",
+        "title": "Applications of Photosynthesis"
+      },
+      {
+        "brief": "is a major limitation of photosynthesis ), the rate at which carbon dioxide can be supplied to the chloroplasts to support photosynthesis , the availability",
+        "image_prompt": "Photosynthesis, Common Challenges in Photosynthesis. comparison chart showing mistakes vs correct understanding, high clarity, educational labels, no scenery, no animals.",
+        "title": "Common Challenges in Photosynthesis"
+      }
+    ],
+    "topic": "Photosynthesis"
+  }
+}

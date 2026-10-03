@@ -1,0 +1,89 @@
+{
+  "http_status": 200,
+  "seconds": 37.07,
+  "response": {
+    "analysis": {
+      "analysis_ms": 33530,
+      "error": "ValueError: no JSON object found in analyzer output",
+      "model_load_s": 1.307,
+      "plan": {
+        "avoid": [
+          "casual language",
+          "analogies in place of definitions",
+          "unnecessary background"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definitions",
+          "formulas and laws",
+          "comparisons",
+          "likely questions"
+        ],
+        "explanation_length_sentences": 10,
+        "explanation_style": "precise technical definitions, formulas or laws if relevant, comparisons, likely university-exam questions",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "clean white background, many precise parts",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "a precise technical definition",
+          "formulas, laws or equations if relevant",
+          "a comparison with a related concept",
+          "2-3 likely university exam questions with short answers"
+        ],
+        "subject_area": "general",
+        "subtopic_focus": [
+          "formal definition",
+          "governing laws or formulas",
+          "classification and comparison",
+          "derivation or mechanism highlights",
+          "frequently asked exam questions"
+        ],
+        "tone": "precise, formal and exam-oriented",
+        "topic": "Earth"
+      },
+      "source": "rules"
+    },
+    "explanation": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water. Almost all of Earth's water is contained in its ocean, which covers 70.8% of Earth's crust. The remaining 29.2% of Earth's crust is land, which is predominantly located within Earth's land hemisphere in the form of continental landmasses. Most of Earth's land is at least somewhat humid and covered by vegetation, while large ice sheets at Earth's polar deserts retain more water than Earth's groundwater, lakes, rivers, and atmospheric water combined. Earth's crust consists of slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth has a liquid outer core that generates a magnetosphere capable of deflecting most of the destructive solar winds and cosmic radiation.",
+    "images": [
+      "http://127.0.0.1:5000/generated/21ca27cb715c4abea53ad944119541df.png",
+      "http://127.0.0.1:5000/generated/a64ac734eab54388b999655d54da22fb.png",
+      "http://127.0.0.1:5000/generated/9ea772314d8549128e08d83cb5f866b8.png",
+      "http://127.0.0.1:5000/generated/5fc597687ec246d080917bb75fce6801.png",
+      "http://127.0.0.1:5000/generated/8b1b410028f849adb3a56e0f272c6cfa.png"
+    ],
+    "level": "college",
+    "mode": "exam",
+    "subtopics": [
+      {
+        "brief": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. This is made possible by Earth being an ocean world, the only one in the Solar System sustaining liquid surface water.",
+        "image_prompt": "Earth, Definition of Earth. clean definition infographic with labeled terms, high clarity, educational labels, no scenery, no animals.",
+        "title": "Definition of Earth"
+      },
+      {
+        "brief": "weather phenomena such as precipitation, allowing components such as carbon and nitrogen to cycle. Earth is rounded into an ellipsoid with a circumference",
+        "image_prompt": "Earth, Core Components of Earth. technical component diagram with labeled parts, high clarity, educational labels, no scenery, no animals.",
+        "title": "Core Components of Earth"
+      },
+      {
+        "brief": "that a reliable mechanism for determining Earth's age was established, proving the planet to be billions of years old. Images of Earth taken from space",
+        "image_prompt": "Earth, How Earth Works. step-by-step workflow illustration with arrows and labels, high clarity, educational labels, no scenery, no animals.",
+        "title": "How Earth Works"
+      },
+      {
+        "brief": "were created using 3D modeling applications such as SketchUp and, beginning in 2009, Building Maker, and were uploaded to Google Earth via the 3D Warehouse",
+        "image_prompt": "Earth, Applications of Earth. real-world application collage in classroom textbook style, high clarity, educational labels, no scenery, no animals.",
+        "title": "Applications of Earth"
+      },
+      {
+        "brief": "Hunen, J.; van den Berg, A.P. (2007).",
+        "image_prompt": "Earth, Common Challenges in Earth. comparison chart showing mistakes vs correct understanding, high clarity, educational labels, no scenery, no animals.",
+        "title": "Common Challenges in Earth"
+      }
+    ],
+    "topic": "Earth"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "http_status": 200,
+  "seconds": 3.7,
+  "response": {
+    "explanation": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy\u2014typically from sunlight\u2014into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds, typically carbohydrates like sugars, starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth.",
+    "images": [
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FPhotosynthesis%252C%2520Definition%2520of%2520Photosynthesis.%2520clean%2520definition%2520infographic%2520with%2520labeled%2520terms%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3D81881d104b49%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FPhotosynthesis%252C%2520Core%2520Components%2520of%2520Photosynthesis.%2520technical%2520component%2520diagram%2520with%2520labeled%2520parts%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Df8296a8218f1%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FPhotosynthesis%252C%2520How%2520Photosynthesis%2520Works.%2520step-by-step%2520workflow%2520illustration%2520with%2520arrows%2520and%2520labels%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3D872b24223ba2%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FPhotosynthesis%252C%2520Applications%2520of%2520Photosynthesis.%2520real-world%2520application%2520collage%2520in%2520classroom%2520textbook%2520style%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3D7665df767a5d%26width%3D640%26height%3D420",
+      "http://127.0.0.1:5000/image-proxy?url=https%3A%2F%2Fimage.pollinations.ai%2Fprompt%2FPhotosynthesis%252C%2520Common%2520Challenges%2520in%2520Photosynthesis.%2520comparison%2520chart%2520showing%2520mistakes%2520vs%2520correct%2520understanding%252C%2520high%2520clarity%252C%2520educational%2520labels%252C%2520no%2520scenery%252C%2520no%2520animals..%2520educational%2520infographic%2520style%252C%2520clear%2520labels%252C%2520classroom-friendly%252C%2520no%2520random%2520nature%2520scenery%252C%2520no%2520animals.%2520focus%2520strictly%2520on%2520the%2520described%2520concept.%3Fseed%3Dee8b627a2a23%26width%3D640%26height%3D420"
+    ],
+    "level": "school",
+    "mode": "learn",
+    "subtopics": [
+      {
+        "brief": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy\u2014typically from sunlight\u2014into the chemical energy necessary to fuel their metabolism. The term photosynthesis...",
+        "image_prompt": "Photosynthesis, Definition of Photosynthesis. clean definition infographic with labeled terms, high clarity, educational labels, no scenery, no animals.",
+        "title": "Definition of Photosynthesis"
+      },
+      {
+        "brief": "The core components of Photosynthesis can be understood through its architecture and key functional units.",
+        "image_prompt": "Photosynthesis, Core Components of Photosynthesis. technical component diagram with labeled parts, high clarity, educational labels, no scenery, no animals.",
+        "title": "Core Components of Photosynthesis"
+      },
+      {
+        "brief": "Photosynthesis works through an operational flow where each stage contributes to the final behavior.",
+        "image_prompt": "Photosynthesis, How Photosynthesis Works. step-by-step workflow illustration with arrows and labels, high clarity, educational labels, no scenery, no animals.",
+        "title": "How Photosynthesis Works"
+      },
+      {
+        "brief": "Photosynthesis is applied in practical systems with measurable impact in real-world tasks.",
+        "image_prompt": "Photosynthesis, Applications of Photosynthesis. real-world application collage in classroom textbook style, high clarity, educational labels, no scenery, no animals.",
+        "title": "Applications of Photosynthesis"
+      },
+      {
+        "brief": "Common challenges in Photosynthesis include misconceptions, implementation pitfalls, and tuning issues.",
+        "image_prompt": "Photosynthesis, Common Challenges in Photosynthesis. comparison chart showing mistakes vs correct understanding, high clarity, educational labels, no scenery, no animals.",
+        "title": "Common Challenges in Photosynthesis"
+      }
+    ],
+    "topic": "Photosynthesis"
+  }
+}

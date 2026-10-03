@@ -1,0 +1,1482 @@
+{
+  "summary": {
+    "requests": 32,
+    "qwen": 31,
+    "rules_fallback": 1,
+    "fallback_rate": 0.031,
+    "analysis_ms_mean": 7522,
+    "analysis_ms_median": 6796,
+    "analysis_ms_min": 5723,
+    "analysis_ms_max": 14357,
+    "plans_with_any_field_from_rules": 12
+  },
+  "rows": [
+    {
+      "topic": "Earth",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 13802,
+      "fields_from_rules": [],
+      "model_load_s": 5.725,
+      "plan": {
+        "avoid": [
+          "scientific jargon",
+          "complicated diagrams"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, everyday examples, and simple explanations",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "Earth globe with circles, day/night cycle, weather patterns, oceans and continents",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "earth as a sphere",
+          "circles on Earth",
+          "day and night",
+          "weather patterns",
+          "oceans and land masses"
+        ],
+        "subject_area": "geography / earth science",
+        "subtopic_focus": [
+          "the shape of Earth",
+          "circles on Earth",
+          "day and night",
+          "weather patterns",
+          "oceans and land masses"
+        ],
+        "tone": "curious and engaging",
+        "topic": "Earth"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Earth",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 6148,
+      "fields_from_rules": [],
+      "model_load_s": 1.589,
+      "plan": {
+        "avoid": [
+          "chemical composition details",
+          "geological processes"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "multiple choice question on Earth's layers",
+          "matching pairs of layers and their descriptions"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "explaining Earth's layers through analogy with cake layers",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "Earth model with different colored layers and labels",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "crust",
+          "mantle",
+          "core",
+          "oceanic crust",
+          "continental crust",
+          "magma"
+        ],
+        "subject_area": "geography / earth science",
+        "subtopic_focus": [
+          "layers of Earth",
+          "composition of each layer",
+          "examples of igneous rocks",
+          "how magma forms",
+          "relationship between layers"
+        ],
+        "tone": "curious and informative",
+        "topic": "Earth"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Earth",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 7818,
+      "fields_from_rules": [],
+      "model_load_s": 0.918,
+      "plan": {
+        "avoid": [
+          "generalized explanations",
+          "simplistic analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "explaining geological processes through analogy and diagrams",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "cross-section of Earth showing layers and crust movement",
+          "type": "cross-section"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "plate tectonics",
+          "volcanoes",
+          "mountains",
+          "sedimentation",
+          "weathering and erosion"
+        ],
+        "subject_area": "geography / earth science",
+        "subtopic_focus": [
+          "how Earth's surface changes over time",
+          "formation of mountains",
+          "volcanic activity",
+          "landforms created by weathering and erosion",
+          "the role of plate tectonics"
+        ],
+        "tone": "curious and analytical",
+        "topic": "Earth"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Earth",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 14357,
+      "error": "ValueError: no JSON object found in analyzer output",
+      "model_load_s": 1.541,
+      "plan": {
+        "avoid": [
+          "casual language",
+          "analogies in place of definitions",
+          "unnecessary background"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definitions",
+          "formulas and laws",
+          "comparisons",
+          "likely questions"
+        ],
+        "explanation_length_sentences": 10,
+        "explanation_style": "precise technical definitions, formulas or laws if relevant, comparisons, likely university-exam questions",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "clean white background, many precise parts",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "a precise technical definition",
+          "formulas, laws or equations if relevant",
+          "a comparison with a related concept",
+          "2-3 likely university exam questions with short answers"
+        ],
+        "subject_area": "general",
+        "subtopic_focus": [
+          "formal definition",
+          "governing laws or formulas",
+          "classification and comparison",
+          "derivation or mechanism highlights",
+          "frequently asked exam questions"
+        ],
+        "tone": "precise, formal and exam-oriented",
+        "topic": "Earth"
+      },
+      "source": "rules"
+    },
+    {
+      "topic": "Photosynthesis",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 6713,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.629,
+      "plan": {
+        "avoid": [
+          "chemical equations",
+          "scientific jargon"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, easy-to-understand concepts, and everyday examples like leaves on trees",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "plant leaf with light source, chloroplasts, and carbon dioxide bubbles",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "photosynthesis",
+          "light energy conversion",
+          "carbon dioxide and water as reactants",
+          "oxygen and glucose as products"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "how plants make their own food using sunlight",
+          "the role of chlorophyll",
+          "stomata and photosynthetic pigments",
+          "leaf structure and function",
+          "fun facts and why it matters"
+        ],
+        "tone": "curious and engaging",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Photosynthesis",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 8941,
+      "fields_from_rules": [],
+      "model_load_s": 1.495,
+      "plan": {
+        "avoid": [
+          "photosynthetic pigments",
+          "cellular respiration"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition of photosynthesis",
+          "light-dependent reactions",
+          "glucose production",
+          "challenges in agricultural practices"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "explaining photosynthesis as a process that converts light energy into chemical energy",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "plant leaf with sun, chlorophyll, carbon dioxide, water and glucose molecules",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "light-dependent reactions",
+          "carbon dioxide and water",
+          "chlorophyll",
+          "glucose production",
+          "stomata and chloroplasts"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "how plants use sunlight to make food",
+          "chemical reactions involved",
+          "role of chlorophyll",
+          "production of glucose",
+          "function of stomata and chloroplasts"
+        ],
+        "tone": "curious and informative",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Photosynthesis",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 6538,
+      "fields_from_rules": [],
+      "model_load_s": 1.472,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "mechanisms, cause-effect, real-world applications, technical terms explained",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "plant leaf with photosynthesis symbols and arrows",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "photosynthesis process",
+          "light-dependent reactions",
+          "carbon dioxide and water conversion",
+          "glucose production",
+          "chlorophyll role",
+          "stomata function"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "how plants make their own food using sunlight",
+          "chemical reactions involved",
+          "role of chlorophyll",
+          "function of stomata",
+          "energy transfer through ATP"
+        ],
+        "tone": "curious and analytical",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Photosynthesis",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 8411,
+      "fields_from_rules": [],
+      "model_load_s": 1.611,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition",
+          "mechanism",
+          "stages",
+          "comparison",
+          "likely questions"
+        ],
+        "explanation_length_sentences": 8,
+        "explanation_style": "mechanism, cause-effect, comparison with other processes",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "plant leaf with chloroplasts, light source, carbon dioxide and water molecules",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "photosynthesis as a process",
+          "light-dependent reactions",
+          "carbon dioxide and water conversion to glucose",
+          "stages of photosynthesis",
+          "comparison with cellular respiration",
+          "2-3 likely exam questions with answers"
+        ],
+        "subject_area": "biology / plant physiology",
+        "subtopic_focus": [
+          "light-dependent reactions",
+          "carbon fixation",
+          "glucose production",
+          "energy transfer",
+          "cellular respiration analogy"
+        ],
+        "tone": "technical and formal",
+        "topic": "Photosynthesis"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Newton's laws of motion",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 6516,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.618,
+      "plan": {
+        "avoid": [
+          "mathematical equations",
+          "advanced physics concepts"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, everyday examples like pushing a box on a floor",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "car moving at constant speed, push and pull force applied",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "first law (law of inertia)",
+          "second law (F=ma)",
+          "third law (action-reaction forces)"
+        ],
+        "subject_area": "physics / mechanics",
+        "subtopic_focus": [
+          "the first law, second law, third law",
+          "examples of each law",
+          "real-life situations where these apply",
+          "examples from everyday life",
+          "fun facts and why it matters"
+        ],
+        "tone": "friendly and curious",
+        "topic": "Newton's laws of motion"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Newton's laws of motion",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 7960,
+      "fields_from_rules": [],
+      "model_load_s": 1.515,
+      "plan": {
+        "avoid": [
+          "technical terms like resultant force",
+          "school-level simplifications"
+        ],
+        "depth": "basic",
+        "exam_focus": [
+          "definition",
+          "formulae",
+          "application",
+          "likely questions"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "analogies, everyday examples like pushing a box on a floor",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "car moving along a road with wheels turning",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "first law (law of inertia)",
+          "second law (F=ma)",
+          "third law (action-reaction forces)",
+          "2-3 likely exam questions with short answers"
+        ],
+        "subject_area": "physics / mechanics",
+        "subtopic_focus": [
+          "laws of motion",
+          "inertia",
+          "force",
+          "acceleration",
+          "motion without friction"
+        ],
+        "tone": "curious and straightforward",
+        "topic": "Newton's laws of motion"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Newton's laws of motion",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 6064,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.555,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 7,
+        "explanation_style": "key concepts, diagrams, and practical examples like car collisions",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "car front view with forces applied to wheels and bumper",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "Newton's first law (inertia)",
+          "second law (F=ma)",
+          "third law (action-reaction pairs)",
+          "diagram showing forces on a car collision"
+        ],
+        "subject_area": "physics / mechanics",
+        "subtopic_focus": [
+          "first law, second law, third law",
+          "forces acting on objects",
+          "collision scenarios",
+          "real-world applications like cars",
+          "limitations and current developments"
+        ],
+        "tone": "crisp and clear",
+        "topic": "Newton's laws of motion"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Newton's laws of motion",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 7384,
+      "fields_from_rules": [],
+      "model_load_s": 1.486,
+      "plan": {
+        "avoid": [
+          "simpler explanations",
+          "analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition",
+          "equations",
+          "applications",
+          "questions"
+        ],
+        "explanation_length_sentences": 10,
+        "explanation_style": "description of each law, including implications and practical applications, followed by exam-style questions",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "cartoon representation of forces acting on an object",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "first law (law of inertia)",
+          "second law (F=ma)",
+          "third law (action-reaction pairs)",
+          "application of Newton's laws in physics and engineering",
+          "2-3 exam-style questions with solutions"
+        ],
+        "subject_area": "physics / mechanics",
+        "subtopic_focus": [
+          "laws of motion",
+          "implications of each law",
+          "real-life applications",
+          "practical scenarios",
+          "numerical problems"
+        ],
+        "tone": "formal and technical",
+        "topic": "Newton's laws of motion"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Human heart",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 6538,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.713,
+      "plan": {
+        "avoid": [
+          "medical terminology",
+          "scientific jargon"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, easy-to-understand concepts, and relatable examples like pumping blood through veins",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "human heart with labels",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "heart as pump",
+          "blood circulation",
+          "pumping action",
+          "two main chambers",
+          "four valves"
+        ],
+        "subject_area": "biology / human anatomy",
+        "subtopic_focus": [
+          "the heart's function as a pump",
+          "how it circulates blood",
+          "its two main chambers",
+          "its four valves",
+          "fun facts and why it matters"
+        ],
+        "tone": "curious and engaging",
+        "topic": "Human heart"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Human heart",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 6608,
+      "fields_from_rules": [],
+      "model_load_s": 1.562,
+      "plan": {
+        "avoid": [
+          "medical jargon",
+          "simplified explanations"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definitions of heart parts",
+          "function of pumping blood",
+          "ECG basics",
+          "regulation of blood pressure"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "scientific explanation with diagrams or simplified models",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "human heart with labels",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "heart structure",
+          "pumps blood",
+          "four chambers",
+          "left and right sides",
+          "atria and ventricles",
+          "electrical impulses"
+        ],
+        "subject_area": "biology / human anatomy",
+        "subtopic_focus": [
+          "heart anatomy",
+          "function as pump",
+          "electrocardiogram (ECG) basics",
+          "cardiac cycle",
+          "blood pressure regulation"
+        ],
+        "tone": "informative and concise",
+        "topic": "Human heart"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Human heart",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 6455,
+      "fields_from_rules": [],
+      "model_load_s": 1.551,
+      "plan": {
+        "avoid": [
+          "analogies",
+          "simplified explanations"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "mechanisms, cause-effect relationships, diagrams",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "heart cross-section with labels",
+          "type": "cross-section"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "heart structure",
+          "pumps blood",
+          "atria and ventricles",
+          "electrical impulses",
+          "cardiac cycle",
+          "blood pressure regulation"
+        ],
+        "subject_area": "biology / anatomy",
+        "subtopic_focus": [
+          "heart structure and function",
+          "pump action",
+          "electrical conduction system",
+          "pressure changes during contraction",
+          "regulation of blood flow"
+        ],
+        "tone": "scientific and technical",
+        "topic": "Human heart"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Human heart",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 8265,
+      "fields_from_rules": [],
+      "model_load_s": 1.6,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "daily life analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definitions",
+          "functionality",
+          "medical conditions related to heart issues"
+        ],
+        "explanation_length_sentences": 10,
+        "explanation_style": "biological processes, physiological functions, medical implications",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "heart with labels and diagrams",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "heart structure and function",
+          "cardiac cycle",
+          "electrical impulses",
+          "blood pressure regulation",
+          "anatomy of valves and chambers"
+        ],
+        "subject_area": "biology / anatomy",
+        "subtopic_focus": [
+          "structure and function of heart",
+          "electrocardiogram (ECG)",
+          "heart rate control",
+          "valve operation",
+          "blood pressure maintenance"
+        ],
+        "tone": "technical and formal",
+        "topic": "Human heart"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Acids and bases",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 6824,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.882,
+      "plan": {
+        "avoid": [
+          "chemical equations",
+          "ionic bonds"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "analogies, everyday examples like lemonade or soap",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "acid-base indicator, pH scale",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "sour taste as acid",
+          "soap dissolves grease",
+          "baking soda reacts with acids"
+        ],
+        "subject_area": "chemistry / chemical reactions",
+        "subtopic_focus": [
+          "types of acids (acetic, citric)",
+          "bases (alkaline), their properties",
+          "neutralization reaction",
+          "examples from everyday life",
+          "fun facts and why it matters"
+        ],
+        "tone": "friendly and curious",
+        "topic": "Acids and bases"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Acids and bases",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 7225,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.523,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition of acids and bases",
+          "reaction types",
+          "pH calculation"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "chemical reactions, pH scale, common acid-base pairs",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "acid-base indicator solution with pH scale",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "neutralization reaction between acids and bases",
+          "pH scale explanation",
+          "common acid-base pairs like HCl and NaOH"
+        ],
+        "subject_area": "chemistry / general chemistry",
+        "subtopic_focus": [
+          "acid-base neutralization",
+          "pH scale",
+          "examples of strong and weak acids/bases",
+          "how to calculate pH",
+          "likely exam questions"
+        ],
+        "tone": "informative and concise",
+        "topic": "Acids and bases"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Acids and bases",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 7720,
+      "fields_from_rules": [],
+      "model_load_s": 1.585,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "daily life examples"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "chemical equation, reaction types, pH scale explanation",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "solution of HCl or NaOH with indicator solution",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "H+ and OH- ions involved in acid-base reactions",
+          "neutralization reactions",
+          "pH scale description",
+          "examples of acids and bases",
+          "types of acids (acetic, citric, etc.)"
+        ],
+        "subject_area": "chemistry / chemical reactions",
+        "subtopic_focus": [
+          "acid-base reactions",
+          "neutralization",
+          "pH scale",
+          "common acids and bases",
+          "classification of acids"
+        ],
+        "tone": "technical and formal",
+        "topic": "Acids and bases"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Acids and bases",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 8476,
+      "fields_from_rules": [],
+      "model_load_s": 1.62,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "school-level analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "equations and types",
+          "scale and titration",
+          "questions on acid-base interactions"
+        ],
+        "explanation_length_sentences": 10,
+        "explanation_style": "chemical equation, reaction types, pH scale, acid-base titration",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "solution containing HCl or NaOH with appropriate labels",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "HCl + NaOH \u2192 NaCl + H\u2082O",
+          "Na\u2082CO\u2083 + Ca(OH)\u2082 \u2192 CaCO\u2083 + 2NaOH",
+          "pH scale explanation",
+          "acid-base titration concept",
+          "types of acids (monoprotic, diprotic, etc.)",
+          "2-3 likely exam questions with answers"
+        ],
+        "subject_area": "chemistry / chemical reactions",
+        "subtopic_focus": [
+          "chemical equations",
+          "reaction types",
+          "pH scale",
+          "titration concepts",
+          "acid-base properties"
+        ],
+        "tone": "technical and formal",
+        "topic": "Acids and bases"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "French Revolution",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 5723,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.577,
+      "plan": {
+        "avoid": [
+          "political jargon",
+          "academic concepts"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "historical events, figures, causes, effects",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "portrait of Napoleon, map of France during the revolution, timeline",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "Napoleon Bonaparte",
+          "Louis XVI",
+          "King Louis XVI"
+        ],
+        "subject_area": "history",
+        "subtopic_focus": [
+          "the French Revolution",
+          "impact on France",
+          "role of Napoleon",
+          "examples from everyday life",
+          "fun facts and why it matters"
+        ],
+        "tone": "curious and engaging",
+        "topic": "French Revolution"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "French Revolution",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 6471,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.492,
+      "plan": {
+        "avoid": [
+          "political jargon",
+          "historical context"
+        ],
+        "depth": "basic",
+        "exam_focus": [
+          "identify key figures and events",
+          "describe impact on France",
+          "compare with other revolutions"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "chronological overview with dates and events",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "timeline of the French Revolution with symbols and descriptions",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "Declaration of the Rights of Man and Citizen",
+          "Napoleon Bonaparte",
+          "Terror period",
+          "Fall of Robespierre"
+        ],
+        "subject_area": "history",
+        "subtopic_focus": [
+          "key figures and events leading up to the revolution",
+          "impact on French society",
+          "rebellious movements",
+          "important points to remember",
+          "likely exam questions"
+        ],
+        "tone": "informative and engaging",
+        "topic": "French Revolution"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "French Revolution",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 6545,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.562,
+      "plan": {
+        "avoid": [
+          "personal anecdotes or fictionalized accounts",
+          "generalizations without evidence"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "historical context, causes, consequences, comparison with modern revolutions",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "portrait of Marie Antoinette with a map of France and Europe",
+          "type": "colourful infographic"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "causes of revolution",
+          "impact on French society",
+          "comparison with other major revolutions",
+          "key figures involved"
+        ],
+        "subject_area": "history",
+        "subtopic_focus": [
+          "social and political changes during the revolution",
+          "economic conditions leading to unrest",
+          "role of women and minorities",
+          "long-term effects on France and Europe",
+          "limitations and current developments"
+        ],
+        "tone": "analytical and critical",
+        "topic": "French Revolution"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "French Revolution",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 8112,
+      "fields_from_rules": [],
+      "model_load_s": 1.78,
+      "plan": {
+        "avoid": [
+          "personal anecdotes or casual language",
+          "generalizations without evidence"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "cause-and-effect relationships",
+          "impact assessment",
+          "comparison with other historical events"
+        ],
+        "explanation_length_sentences": 8,
+        "explanation_style": "historical context, causes, consequences, comparison with modern revolutions",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "timeline of the French Revolution with symbols for different groups involved",
+          "type": "colourful infographic"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "causes of revolution",
+          "impact on French society",
+          "comparison with other major revolutions",
+          "key figures and events"
+        ],
+        "subject_area": "history",
+        "subtopic_focus": [
+          "social and political changes during the revolution",
+          "economic impact",
+          "democratic principles",
+          "global significance",
+          "rebellious movements"
+        ],
+        "tone": "analytical and critical",
+        "topic": "French Revolution"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Binary search",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 7443,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.581,
+      "plan": {
+        "avoid": [
+          "complex mathematical equations",
+          "terminology like hash tables"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "step-by-step explanation with analogies like finding a book on a shelf",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "binary search tree with nodes labelled",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "binary search algorithm",
+          "searching through sorted list or array",
+          "divide-and-conquer approach",
+          "reducing problem size by half each time"
+        ],
+        "subject_area": "computer science / algorithms",
+        "subtopic_focus": [
+          "how binary search works",
+          "use cases",
+          "time complexity",
+          "visual representation as tree",
+          "fun facts and why it matters"
+        ],
+        "tone": "friendly and curious",
+        "topic": "Binary search"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Binary search",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 6669,
+      "fields_from_rules": [],
+      "model_load_s": 1.595,
+      "plan": {
+        "avoid": [
+          "diagrams",
+          "pseudocode"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "algorithm description",
+          "correctness of base case handling",
+          "termination condition verification",
+          "time/space complexity estimation"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "algorithmic steps with diagrams or pseudocode",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "binary tree with binary search example",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "binary search algorithm",
+          "divide-and-conquer approach",
+          "searching sorted array",
+          "loop invariant",
+          "base cases",
+          "recursion termination"
+        ],
+        "subject_area": "computer science / algorithms",
+        "subtopic_focus": [
+          "binary search logic",
+          "array indexing",
+          "loop control structures",
+          "recursive function calls",
+          "time complexity analysis"
+        ],
+        "tone": "crisp and clear",
+        "topic": "Binary search"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Binary search",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 6705,
+      "fields_from_rules": [],
+      "model_load_s": 1.557,
+      "plan": {
+        "avoid": [
+          "pseudo code",
+          "general algorithms",
+          "programming concepts"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "algorithmic steps with diagrams or pseudocode",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "binary tree with nodes labelled as left child, right child, parent",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "binary search algorithm",
+          "divide-and-conquer approach",
+          "searching through sorted array",
+          "loop condition",
+          "comparison between elements",
+          "return value"
+        ],
+        "subject_area": "computer science / algorithmic thinking",
+        "subtopic_focus": [
+          "binary search implementation",
+          "array sorting",
+          "recursion basics",
+          "loop control structures",
+          "data structure usage"
+        ],
+        "tone": "clear and concise",
+        "topic": "Binary search"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Binary search",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 6767,
+      "fields_from_rules": [],
+      "model_load_s": 1.322,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "examples using numbers instead of arrays"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition",
+          "algorithm steps",
+          "time complexity",
+          "comparison with other algorithms"
+        ],
+        "explanation_length_sentences": 8,
+        "explanation_style": "algorithmic steps, time complexity analysis, comparison with other searching methods",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "binary tree structure with binary search applied on it",
+          "type": "labeled textbook diagram"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "binary search algorithm",
+          "divide-and-conquer approach",
+          "searching sorted array",
+          "time complexity O(log n)",
+          "comparison with linear search"
+        ],
+        "subject_area": "computer science / algorithmic thinking",
+        "subtopic_focus": [
+          "binary search logic",
+          "array indexing",
+          "recursion concept",
+          "space-time trade-offs",
+          "implied complexity"
+        ],
+        "tone": "technical and formal",
+        "topic": "Binary search"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Supply and demand",
+      "level": "school",
+      "mode": "learn",
+      "analysis_ms": 6228,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.551,
+      "plan": {
+        "avoid": [
+          "mathematical equations",
+          "economic jargon"
+        ],
+        "depth": "basic",
+        "exam_focus": [],
+        "explanation_length_sentences": 5,
+        "explanation_style": "real-life examples, analogies, and easy-to-understand concepts",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "graph showing supply and demand curves with market equilibrium point highlighted",
+          "type": "colourful infographic"
+        },
+        "level": "school",
+        "mode": "learn",
+        "must_include": [
+          "supply curve",
+          "demand curve",
+          "market equilibrium",
+          "how changes affect supply/demand"
+        ],
+        "subject_area": "economics / microeconomics",
+        "subtopic_focus": [
+          "supply and demand basics",
+          "relationship between price and quantity",
+          "equilibrium point",
+          "changes in supply and demand",
+          "fun facts and why it matters"
+        ],
+        "tone": "curious and engaging",
+        "topic": "Supply and demand"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Supply and demand",
+      "level": "school",
+      "mode": "exam",
+      "analysis_ms": 7448,
+      "fields_from_rules": [],
+      "model_load_s": 1.53,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "analogies"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition",
+          "curve drawing",
+          "equilibrium calculation",
+          "real-world example analysis"
+        ],
+        "explanation_length_sentences": 7,
+        "explanation_style": "key concepts, formulas, and practical application",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "supply/demand curve with market equilibrium point",
+          "type": "labeled textbook diagram"
+        },
+        "level": "school",
+        "mode": "exam",
+        "must_include": [
+          "supply curve",
+          "demand curve",
+          "equilibrium point",
+          "market price determination",
+          "consumer surplus and producer surplus",
+          "graphical representation"
+        ],
+        "subject_area": "economics / microeconomics",
+        "subtopic_focus": [
+          "supply and demand curves",
+          "equilibrium concept",
+          "price elasticity",
+          "consumer surplus",
+          "producer surplus"
+        ],
+        "tone": "crisp and clear",
+        "topic": "Supply and demand"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Supply and demand",
+      "level": "college",
+      "mode": "learn",
+      "analysis_ms": 6536,
+      "fields_from_rules": [
+        "subtopic_focus (topped up)"
+      ],
+      "model_load_s": 1.664,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "real-life examples"
+        ],
+        "depth": "advanced",
+        "exam_focus": [],
+        "explanation_length_sentences": 8,
+        "explanation_style": "mechanisms, cause-effect relationships, economic principles",
+        "image_style": {
+          "complexity": "simple",
+          "notes": "supply/demand curves intersecting at equilibrium point",
+          "type": "cross-section"
+        },
+        "level": "college",
+        "mode": "learn",
+        "must_include": [
+          "supply curve",
+          "demand curve",
+          "equilibrium point",
+          "market clearing",
+          "consumer surplus and producer surplus"
+        ],
+        "subject_area": "economics / microeconomics",
+        "subtopic_focus": [
+          "how supply and demand interact",
+          "the concept of equilibrium",
+          "economic concepts such as consumer surplus and producer surplus",
+          "graphical representation of supply and demand",
+          "limitations and current developments"
+        ],
+        "tone": "analytical and theoretical",
+        "topic": "Supply and demand"
+      },
+      "source": "qwen"
+    },
+    {
+      "topic": "Supply and demand",
+      "level": "college",
+      "mode": "exam",
+      "analysis_ms": 7282,
+      "fields_from_rules": [],
+      "model_load_s": 1.585,
+      "plan": {
+        "avoid": [
+          "simplified explanations",
+          "personal anecdotes"
+        ],
+        "depth": "advanced",
+        "exam_focus": [
+          "definition of supply and demand",
+          "equilibrium concept",
+          "calculations related to elasticity"
+        ],
+        "explanation_length_sentences": 8,
+        "explanation_style": "economic principles, market dynamics, supply curve, demand curve",
+        "image_style": {
+          "complexity": "detailed",
+          "notes": "supply/demand curve with axes labelled",
+          "type": "cross-section"
+        },
+        "level": "college",
+        "mode": "exam",
+        "must_include": [
+          "supply and demand relationship",
+          "market equilibrium",
+          "consumer surplus and producer surplus",
+          "graphical representation",
+          "calculations involving price elasticity"
+        ],
+        "subject_area": "economics / microeconomics",
+        "subtopic_focus": [
+          "demand and supply curves",
+          "equilibrium point",
+          "price changes on supply and demand graphs",
+          "profit maximization by firms",
+          "taxation effects on supply and demand"
+        ],
+        "tone": "analytical and critical",
+        "topic": "Supply and demand"
+      },
+      "source": "qwen"
+    }
+  ]
+}
